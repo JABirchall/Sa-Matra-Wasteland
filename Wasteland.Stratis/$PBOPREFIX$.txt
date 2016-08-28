@@ -1,0 +1,6 @@
+///////<HEADER>///////
+prefix=result\DWARDEN\Wasteland.Stratis
+Mikero=DePbo.dll
+Pbo Type is: Arma Mission with irrelevant prefix
+Sha: '9920773229A381B37522A8B12911DB2ACCCBBB60'
+//////</HEADER>//////

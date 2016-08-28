@@ -1,0 +1,11 @@
+/*
+	ArmA 3 Wasteland
+	Code written by Sa-Matra
+	Using this code without Sa-Matra's direct permission is forbidden
+	
+	
+	Special build for Dwarden
+	
+	ESABQIEXHTFRGOFR
+*/
+wg43zl="Heliporter l'objet";wg3yna="Objet ""%1"" attaché.";wgwo5y="L'objet ""%1"" est déjà transporté un véhicule.";wgp6o2="L'objet ""%1"" est en train d'être déplacé par un joueur.";wgcdlt="Un joueur se trouve dans l'objet ""%1"".";wgcwtn="Impossible d'héliporter l'objet ""%1"" car il est en train de remorquer un autre objet.";wg4kad="Larguer l'objet";wgqnpy="Objet ""%1"" largué.";wgsqsm="Prendre cet objet";wg8r18="Relacher l'objet";wgo1mz="Vous ne pouvez pas monter dans un véhicule tant que vous portez cet objet !";wgjwe1="Vous marchez trop vite ! (Touche majuscule pour ralentir)";wgbuxs="Charger dans...";wgaswp="Sélectionnez maintenant le véhicule dans lequel charger l'objet ""%1""...";wglezy="... charger l'objet sélectionné dans ce véhicule";wgaebv="Chargement en cours...";wg1itb="L'objet ""%1"" a été chargé dans le véhicule.";wgglaj="L'objet ""%1"" est trop loin du véhicule pour être chargé.";wga3w7="Il n'y pas assez de place pour cet objet dans ce véhicule.";wg9yvi="L'objet ""%1"" est en cours de transport.";wg569f="Charger dans le véhicule";wgjser="Chargement en cours...";wg2djg="L'objet a été chargé dans le véhicule ""%1"".";wg5doq="Il n'y pas assez de place pour cet objet dans ce véhicule.";wgamo9="Remorquer à...";wg294o="Sélectionnez maintenant le véhicule dans lequel charger l'objet ""%1""...";wgwzmg="... remorquer l'objet sélectionné à ce véhicule";wgtm4w="L'objet ""%1"" est trop loin du véhicule pour être remorqué.";wg35rd="L'objet ""%1"" est en cours de transport.";wgsjor="Remorquer l'objet";wgnmkx="Décrocher l'objet";wgzafm="Objet décroché.";wguu1c="Seul le pilote peut décrocher cet objet.";wg8w65="Voir le contenu du véhicule";wgzm34="Déchargement en cours...";wgseeo="L'objet a été déchargé du véhicule.";wgyi8w="L'objet a déjà été déchargé.";wgt5pg="Ce véhicule est en cours de transport.";wgv8c1="L'opération en cours n'est pas finie.";wguaxh="Contenu du véhicule";wg2bes="Chargement : %1/%2";wgzcab="Décharger";wgxiyi="Annuler";wgmgps="PC d'artillerie";

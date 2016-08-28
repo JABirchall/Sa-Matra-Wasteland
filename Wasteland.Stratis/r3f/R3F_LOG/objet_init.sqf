@@ -1,0 +1,11 @@
+/*
+	ArmA 3 Wasteland
+	Code written by Sa-Matra
+	Using this code without Sa-Matra's direct permission is forbidden
+	
+	
+	Special build for Dwarden
+	
+	ESABQIEXHTFRGOFR
+*/
+private["_0cv","_0nv","_0ov","_0pv"];_0cv=_this select 0;_0nv=_0cv getVariable "R3F_LOG_disabled";if(isNil "_0nv")then{_0cv setVariable["R3F_LOG_disabled",false];};_0ov=_0cv getVariable "R3F_LOG_est_transporte_par";if(isNil "_0ov")then{_0cv setVariable["R3F_LOG_est_transporte_par",objNull,false];};_0pv=_0cv getVariable "R3F_LOG_est_deplace_par";if(isNil "_0pv")then{_0cv setVariable["R3F_LOG_est_deplace_par",objNull,false];};_0cv addEventHandler["GetIn",{if(_this select 2==player)then{if!(_this call wgvwar)then{_this spawn{sleep 1;_this call wgvwar;};};};}];if({_0cv isKindOf _x}count wgnqhn>0)then{_0cv addAction[("<img image='i\r3f_take.paa'/> <t color=""#dddd00"">"+wgsqsm+"</t>"),"r3f\R3F_LOG\objet_deplacable\deplacer.sqf",nil,wgoif1,false,true,"","wgif8p == _target && wgvbgm && !(_target getVariable ['object_locked', false]) && !(_target getVariable ['owner_locked', false]) && !wg6z48"];};if({_0cv isKindOf _x}count wgk3rq>0)then{_0cv addAction[("<img image='i\r3f_tow.paa'/> <t color=""#dddd00"">"+wgamo9+"</t>"),"r3f\R3F_LOG\remorqueur\selectionner_objet.sqf",nil,wgurro,false,true,"","wgif8p == _target && wga3kp && !(_target getVariable ['object_locked', false]) && !(_target getVariable ['owner_locked', false]) && !wg6z48"];_0cv addAction[("<img image='i\r3f_untow.paa'/> <t color=""#dddd00"">"+wgnmkx+"</t>"),"r3f\R3F_LOG\remorqueur\detacher.sqf",nil,wgdv8x,true,true,"","wgif8p == _target && wgv1y7"];};if({_0cv isKindOf _x}count wgqfwq>0)then{if({_0cv isKindOf _x}count wgnqhn>0)then{_0cv addAction[("<img image='i\r3f_confirm.paa'/> <t color=""#eeeeee"">"+wg569f+"</t>"),"r3f\R3F_LOG\transporteur\charger_deplace.sqf",nil,wgdv8x,true,true,"","wgif8p == _target && wgkaev"];};_0cv addAction[("<img image='i\r3f_loadin.paa'/> <t color=""#dddd00"">"+wgbuxs+"</t>"),"r3f\R3F_LOG\transporteur\selectionner_objet.sqf",nil,wgurro,false,true,"","wgif8p == _target && wgpuge && !(_target getVariable ['object_locked', false]) && !(_target getVariable ['owner_locked', false]) && !wg6z48"];};

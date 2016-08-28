@@ -1,0 +1,13 @@
+/*
+	ArmA 3 Wasteland
+	Code written by Sa-Matra
+	Using this code without Sa-Matra's direct permission is forbidden
+	
+	
+	Special build for Dwarden
+	
+	ESABQIEXHTFRGOFR
+*/
+class Wasteland_StoreSell{idd=-1;duration=1e+011;name="Wasteland_StoreSell";movingEnable=false;enableSimulation=true;onLoad="uiNamespace setVariable ['Wasteland_StoreSell', _this select 0]; (_this select 0) call wglfjo;";class controlsBackground{
+#include "tiles.hpp"
+class RscTitleBackground:RscText{colorBackground[]={"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])","(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])","(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])","(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};idc=-1;x=0;y=0.2;w=1;h=(1/25);};class MainBackground:RscText{colorBackground[]={0,0,0,0.7};idc=-1;x=0;y=0.2+(11/250);w=1;h=0.6-(22/250);};};class controls{class Title:RscTitle{colorBackground[]={0,0,0,0};idc=-1;style=0xC0;text="Sell";x=0;y=0.2;w=1;h=(1/25);};class PlayersName:Title{idc=wgf5kp;style=1;text="Sa-Matra";};class TitleAvailableForSelling:RscText{idc=-1;text="Can sell from";x=0;y=0.2+(12/250);w=0.45;h=(1/25);colorBackground[]={0,0,0,1};};class RefreshButton:RscActiveText{idc=-1;style=48;x=0.45-0.025-_SPX(1);y=0.2+(12/250)+_SPY(1);w=0.025;h=0.025*(safezoneW/safezoneH);color[]={1,1,1,1};colorActive[]={0,1,0,1};text="i\refresh.paa";action="player say 'click'; true call wgv3el;";};class TitleContents:RscText{idc=-1;text="Contents";x=0.45+_SPX(1);y=0.2+(12/250);w=0.55-_SPX(1);h=(1/25);colorBackground[]={0,0,0,1};};class SellList:RscListBox{idc=wgnw1s;x=0+_SPX(2);y=0.2+(11/250)+_SPY(2)+(1/25)+(1/250);w=0.45-_SPX(2);h=0.6-(22/250)-_SPY(4)-(1/25)-(1/250)-(1/25)-_SPY(2);rowHeight=0.05;sizeEx=a3_sizeEx(0.8);onLBSelChanged="(_this select 1) call wgwzvp";};class ContentsBG:RscText{idc=-1;x=0.45+_SPX(1);y=0.2+(12/250)+(1/25)+_SPY(2);w=0.55-_SPX(2);h=0.6-(22/250)-_SPY(4)-(1/25)-(1/250)-(1/25)-_SPY(2);colorBackground[]={0,0,0,0.2};};class ContentsGroup:RscControlsGroup{idc=-1;x=0.45+_SPX(1);y=0.2+(12/250)+(1/25)+_SPY(2);w=0.55-_SPX(2);h=0.6-(22/250)-_SPY(4)-(1/25)-(1/250)-(1/25)-_SPY(2);class controls{class ContentsText:RscStructuredText{idc=wgo73p;x=0;y=0;w=0.55-_SPX(2)-_SPX(4);h=a3_sizeEx(0.8);text="";};};};class ButtonSellContents:RscButtonMenu{idc=-1;text="Sell contents";x=0.45+_SPX(1);y=0.2+(12/250)+0.6-(33/250)-_SPY(2);w=(10/40);h=(1/25);action="true call wgxwzm";};class SellContentsProfit:RscStructuredText{idc=wgmv7r;text="";x=0.45+_SPX(1)+(10/40)+_SPX(2);y=0.2+(12/250)+0.6-(33/250)-_SPY(2);w=0.55-_SPX(2)-(10/40)-_SPX(2);h=(1/25);size=a3_sizeEx(1);colorText[]={0.666,1,0.666,1.0};};class ButtonClose:RscButtonMenu{idc=-1;text=$STR_WL_Dlg_Close;x=0;y=0.8-(1/25);w=(6.25/40);h=(1/25);action="closeDialog 0";};};};

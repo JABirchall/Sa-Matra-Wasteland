@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="A3Wasteland">
+	<Package name="General">
+		<Key ID="STR_WL_Wasteland">
+			<English>Wasteland</English>
+			<Russian>Wasteland</Russian>
+		</Key>
+		<Key ID="STR_WL_bySaMatra">
+			<English>by Sa-Matra</English>
+			<Russian>by Sa-Matra</Russian>
+		</Key>
+		<Key ID="STR_CFG_papabear">
+			<English>Warning</English>
+			<Russian>Внимание</Russian>
+		</Key>
+		<Key ID="STR_WL_Me">
+			<English>&amp;lt;You&amp;gt;</English>
+			<Russian>&amp;lt;Вы&amp;gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Me2">
+			<English>You</English>
+			<Russian>Вы</Russian>
+		</Key>
+		<Key ID="STR_WL_Yours">
+			<English>Yours</English>
+			<Russian>Ваш</Russian>
+		</Key>
+		<Key ID="STR_WL_LobbyPlayer">
+			<English>Player</English>
+			<Russian>Игрок</Russian>
+		</Key>
+		<Key ID="STR_WL_Player">
+			<English>&amp;lt;Player&amp;gt;</English>
+			<Russian>&amp;lt;Игрок&amp;gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Player2">
+			<English>Player</English>
+			<Russian>Игрок</Russian>
+		</Key>
+		<Key ID="STR_WL_Teammate">
+			<English>&amp;lt;Teammate&amp;gt;</English>
+			<Russian>&amp;lt;Союзник&amp;gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Teammate2">
+			<English>Teammate</English>
+			<Russian>Союзник</Russian>
+		</Key>
+		<Key ID="STR_WL_Groupmate">
+			<English>&amp;lt;Groupmate&amp;gt;</English>
+			<Russian>&amp;lt;Товарищ&amp;gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Groupmate2">
+			<English>Groupmate</English>
+			<Russian>Товарищ</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamWEST">
+			<English>BLUFOR</English>
+			<Russian>Синие</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamWEST_2">
+			<English>BLUFOR</English>
+			<Russian>синих</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamWEST_3">
+			<English>BLUFOR</English>
+			<Russian>Синих</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamEAST">
+			<English>OPFOR</English>
+			<Russian>Красные</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamEAST_2">
+			<English>OPFOR</English>
+			<Russian>красных</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamEAST_3">
+			<English>OPFOR</English>
+			<Russian>Красных</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamGUER">
+			<English>Independent</English>
+			<Russian>Независимые</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamGUER_2">
+			<English>independent</English>
+			<Russian>независимых</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamGUER_3">
+			<English>Independent</English>
+			<Russian>Независимых</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamCIV">
+			<English>Enemy</English>
+			<Russian>Противник</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamCIV_2">
+			<English>enemy</English>
+			<Russian>противника</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamCIV_3">
+			<English>Enemy</English>
+			<Russian>Противника</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_Warning">
+			<English>Warning!</English>
+			<Russian>Внимание!</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_Notice">
+			<English>Notice!</English>
+			<Russian>Внимание!</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_LoadingUppercaseUnderscore">
+			<English>LOADING_</English>
+			<Russian>ЗАГРУЗКА_</Russian>
+		</Key>
+		<Key ID="STR_WL_Gen_RespawnInUppercase">
+			<English>RESPAWN IN</English>
+			<Russian>ПОЯВЛЕНИЕ ЧЕРЕЗ</Russian>
+		</Key>
+		<Key ID="STR_WL_NoChatMessageHidden">
+			<English>Chat Hidden</English>
+			<Russian>Чат скрыт. Нажмите Ctrl + Shift + C чтобы включить чат обратно</Russian>
+		</Key>
+		<Key ID="STR_WL_NoChatMessageEnabled">
+			<English>Chat Enabled</English>
+			<Russian>Чат включен</Russian>
+		</Key>
+		<Key ID="STR_WL_Teamswitch_10minutes">
+			<English>You will be locked to this team in 10 minutes.</English>
+			<Russian>Смена команды будет запрещена через 10 минут.</Russian>
+		</Key>
+		<Key ID="STR_WL_Teamswitch_5minutes">
+			<English>You will be locked to this team in 5 minutes.</English>
+			<Russian>Смена команды будет запрещена через 5 минут.</Russian>
+		</Key>
+		<Key ID="STR_WL_Teamswitch_Xseconds">
+			<English>You will be locked to %1 team in %2</English>
+			<Russian>Выйти из команды %1 будет нельзя через %2</Russian>
+		</Key>
+		<Key ID="STR_WL_Teamswitch_Locked">
+			<English>You have been locked to %1 team and no longer able to switch team.</English>
+			<Russian>Вы выбрали команду %1 и переходить за другую команду больше нельзя.</Russian>
+		</Key>
+		<Key ID="STR_WL_Crate">
+			<English>Crate</English>
+			<Russian>Ящик</Russian>
+		</Key>
+	</Package>
+	<Package name="Warning">
+		<Key ID="STR_WL_Warning_Explosive">
+			<English>Player '%1' just placed '%2' nearby. Be careful.</English>
+			<Russian>Игрок '%1' только что неподалеку установил '%2', будьте внимательнее!</Russian>
+		</Key>
+		<Key ID="STR_WL_Warning_Sold">
+			<English>Player '%1' just sold stuff from %2 for $%3.</English>
+			<Russian>Игрок '%1' продал вещи %2 на сумму $%3.</Russian>
+		</Key>
+		<Key ID="STR_WL_Warning_Sold_Crate">
+			<English>a crate</English>
+			<Russian>из ящика</Russian>
+		</Key>
+		<Key ID="STR_WL_Warning_Sold_Ground">
+			<English>the ground</English>
+			<Russian>с земли</Russian>
+		</Key>
+		<Key ID="STR_WL_Warning_Sold_Vehicle">
+			<English>'%1'</English>
+			<Russian>из '%1'</Russian>
+		</Key>
+		<Key ID="STR_WL_Warning_RadarOff">
+			<English>Friendly player '%1' is trying to disable the base defense radar!</English>
+			<Russian>Дружественный игрок '%1' собирается выключить радар!</Russian>
+		</Key>
+		<Key ID="STR_WL_Warning_BeingRevived">
+			<English>Player '%1' is reviving you, hang in there.</English>
+			<Russian>Игрок '%1' поднимает вас, ждите.</Russian>
+		</Key>
+		<Key ID="STR_WL_Warning_TookMoney">
+			<English>Player '%1' picked up $%2 from the ground</English>
+			<Russian>Игрок '%1' только что поднял $%2</Russian>
+		</Key>
+		<Key ID="STR_WL_Warning_FriendlyFire">
+			<English>Friendly player '%1' damaged you!</English>
+			<Russian>Дружественный игрок '%1' попал по вам!</Russian>
+		</Key>
+	</Package>
+	<Package name="Hints">
+		<Key ID="STR_WL_Hint_RareGear">
+			<English>Rare spawn gear</English>
+			<Russian>Редкое начальное снаряжение</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_RareGearText">
+			<English>There is 10% chance to spawn with a silenced pistol and special uniform as-well-as 1% chance to start with a SMG and unique gear set.</English>
+			<Russian>С шансом в 10% вы можете появиться с пистолетом с глушителем, а с шансом в 1% вам дадут пистолет-пулемет и уникальный набор одежды.</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_MorePerformance">
+			<English>Improve FPS</English>
+			<Russian>Чуть-чуть больше FPS</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_MorePerformanceText">
+			<English>You can lower icon rendering quality to increase performance. To do this open Player Menu -> Settings and press "OLD METHOD" button.</English>
+			<Russian>Вы можете переключиться на упрощенный режим отрисовки иконок над игроками, что немного улучшит производительность. Сделать это можно в Меню Игрока в разделе "Настройки"</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_EnemyHelicopterCrate">
+			<English>AI helicopter crates</English>
+			<Russian>Ящик с разбитого вертолета</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_EnemyHelicopterCrateText">
+			<English>When you take down an AI helicopter if it crashes on land it will drop an ammo crate with equipment within it. Be the first to acquire it to reap the rewards.</English>
+			<Russian>Когда сбитый вертолет ботов падает на землю, около него появляется ящик с хорошим снаряжением.</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_LootInBuildings">
+			<English>Resources inside buildings</English>
+			<Russian>Лут в домах</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_LootInBuildingsText">
+			<English>Be sure to check inside buildings for food, water, repair kits, fuel cans and sometimes even ammo crates and backpacks. Military buildings tend to spawn more crates.</English>
+			<Russian>Не забывайте обыскивать дома, в них можно найти еду, воду, ремкомплекты, канистры, а иногда даже и ящики с оружием и рюкзаки. В военных постройках шансы найти ценное снаряжение выше.</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_HealthRegeneration">
+			<English>Health regeneration</English>
+			<Russian>Регенерация здоровья</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_HealthRegenerationText">
+			<English>When your Food and Water are at least %1%2 you will start to slowly regenerate up to 100%2 health, while First Aid Kits will only heal you up to 75%2 health.</English>
+			<Russian>Когда уровень еды и воды находится на %1%2, вы медленно начнете восстанавливать здоровье до 100%2, в то время как аптечки лечат лишь примерно до 75%2 здоровья.</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_PlayerNames">
+			<English>Player names</English>
+			<Russian>Имена игроков</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_PlayerNamesText">
+			<English>You can view friendly player names by pressing Windows key. Players in your group will have green text.</English>
+			<Russian>Вы можете посмотреть имена игроков нажав клавишу Windows. Игроки в вашей группе выделены зеленым цветом.</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_Respawnable">
+			<English>Respawnable helicopter</English>
+			<Russian>Вертолет в ангарах</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_RespawnableText">
+			<English>There is always a respawnable helicopter on map which spawns in airfield hangars. When this helicopter is blown up it will spawn again in an random hangar after some time.</English>
+			<Russian>В миссии есть вертолет, который появляется в случайном ангаре. Когда вертолет разбивают, через некоторое время он появляется в случайном ангаре снова.</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_Parachuting">
+			<English>Using parachutes</English>
+			<Russian>Парашютирование</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_ParachutingText">
+			<English>Carrying a parachute backpack is no longer required in Wasteland. You will automatically open your steerable parachute at about 200 meters altitude.</English>
+			<Russian>Носить с собой парашют в Wasteland больше не требуется, управляемый парашют автоматически раскроется на высоте около 200 метров над землей.</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_Salvaging">
+			<English>Vehicle Salvaging</English>
+			<Russian>Утилизация техники</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_SalvagingText">
+			<English>You can salvage wrecks of destroyed vehicles for some money. Reward depends on vehicle size. Having a repair kit in your inventory greatly speeds up the process. Beware of burning wrecks as fire damages you.</English>
+			<Russian>В игре можно утилизировать уничтоженную технику и заработать на этом денег. Наличие ремкомплекта в инвентаре значительно ускоряет процесс утилизации. Будьте осторожнее с горящими останками, так как огонь наносит урон.</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_Gestures">
+			<English>Gestures</English>
+			<Russian>Жесты</Russian>
+		</Key>
+		<Key ID="STR_WL_Hint_GesturesText">
+			<English>You can show gestures by pressing Left Shift and Numpad numbers.</English>
+			<Russian>Можно показывать жесты нажатием левого шифта и цифр на цифровой клавиатуре.</Russian>
+		</Key>
+	</Package>
+	<Package name="Missions">
+		<Key ID="STR_WL_Missions_NewMission">
+			<English>New mission</English>
+			<Russian>Новое задание</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_MissionComplete">
+			<English>Mission complete</English>
+			<Russian>Задание выполнено</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_MissionEnded">
+			<English>Mission ended</English>
+			<Russian>Задание завершено</Russian>
+		</Key>
+		<!-- Capture base -->
+		<Key ID="STR_WL_Missions_CaptureBase">
+			<English>Capture base</English>
+			<Russian>Захват базы</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_CaptureBaseText">
+			<English>%1 has established base and and gathered some resources that you might find useful.</English>
+			<Russian>%1 основал базу и собрал полезные ресурсы, которые имеет смысл захватить.</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_CaptureBaseEnemyGroup">
+			<English>Enemy group</English>
+			<Russian>Противник</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_CaptureBaseEnd">
+			<English>Base has been secured.</English>
+			<Russian>База была захвачена.</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_CaptureBaseWin">
+			<English>Good job securing the base. Take it apart or establish it as your own base.</English>
+			<Russian>Хорошая работа по захвату базы! Вы можете ее разобрать на стройматериалы или же обосноваться прямо в ней.</Russian>
+		</Key>
+		<!-- Downed helicopter -->
+		<Key ID="STR_WL_Missions_DownedHelicopter">
+			<English>Downed helicopter</English>
+			<Russian>Захват вертолета</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_DownedHelicopterText">
+			<English>Helicopter has been spotted landing, looks like they are out of fuel.</English>
+			<Russian>Был замечен вертолет, совершивший аварийную посадку и находящийся без топлива. Это отличная возможность его захватить.</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_DownedHelicopterEnd">
+			<English>Helicopter is no longer available for capture.</English>
+			<Russian>Вертолет больше недоступен для захвата.</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_DownedHelicopterWin">
+			<English>Good job capturing the helicopter!</English>
+			<Russian>Поздравляем с успешным захватом вертолета!</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_DownedHelicopterTaken">
+			<English>Helicopter was captured.</English>
+			<Russian>Вертолет был захвачен.</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_DownedHelicopterBlown">
+			<English>Helicopter was blown up.</English>
+			<Russian>Вертолет был взорван.</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_ArmoredVehicle">
+			<English>Armored vehicle</English>
+			<Russian>Захват техники</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_ArmoredVehicleText">
+			<English>Looks like some search group ran out of fuel and now they’re stuck with their immobile armoured vehicle. It’s a good chance to capture it.</English>
+			<Russian>У группы противника закончилось топливо и они застряли на своей боевой машине. Это отличная возможность ее захватить.</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_ArmoredVehicleEnd">
+			<English>Armored vehicle is no longer available for capture.</English>
+			<Russian>Боевая машина больше недоступна для захвата.</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_ArmoredVehicleWin">
+			<English>Good job capturing the vehicle!</English>
+			<Russian>Поздравляем с успешным захватом техники!</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_ArmoredVehicleTaken">
+			<English>Armored vehicle was captured.</English>
+			<Russian>Технику захватили.</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_ArmoredVehicleBlown">
+			<English>Armored vehicle was blown up.</English>
+			<Russian>Техника уничтожена.</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_AmmoTruck">
+			<English>Capture ammo truck</English>
+			<Russian>Грузовик с боеприпасами</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_AmmoTruckText">
+			<English>An Ammo Truck has been spotted being stuck with no wheels, it’s a good chance to capture it.</English>
+			<Russian>Был замечен застрявший от поломки грузовик с боеприпасами. Это отличная возможность его захватить.</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_AmmoTruckEnd">
+			<English>Ammo Truck is no longer available for capture.</English>
+			<Russian>Грузовик больше недоступен для захвата.</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_AmmoTruckWin">
+			<English>Good job capturing the truck!</English>
+			<Russian>Поздравляем с успешным захватом грузовика!</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_AmmoTruckTaken">
+			<English>Truck was captured.</English>
+			<Russian>Грузовик захватили.</Russian>
+		</Key>
+		<Key ID="STR_WL_Missions_AmmoTruckBlown">
+			<English>Truck was blown up.</English>
+			<Russian>Грузовик уничтожен.</Russian>
+		</Key>
+		<!--<Key ID="">
+			<English></English>
+			<Russian></Russian>
+		</Key>-->
+	</Package>
+	<Package name="Diary">
+		<Key ID="STR_WL_Diary_ChangelogNew">
+			<English>New</English>
+			<Russian>Новое</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_ChangelogFixed">
+			<English>Fixed</English>
+			<Russian>Исправлено</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_ChangelogChanged">
+			<English>Changed</English>
+			<Russian>Изменено</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_ChangelogEntry">
+			<English>Changes in %1</English>
+			<Russian>Изменения в %1</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v2">
+			<English>%1 All gun stores now a have different assortment&lt;br/&gt;%1 Limited 3rd person view (available for helicopter pilots only)&lt;br/&gt;&lt;br/&gt;%2 Stamina runs out twice slower, regenerates twice faster (need feedback)&lt;br/&gt;%2 Removed ability to eject anywhere with official Eject function available for passengers&lt;br/&gt;%2 Gestures now available on 7, 8, 9 and 5 numpad keys&lt;br/&gt;&lt;br/&gt;%3 Hunger and thirst should no longer process in the respawn menu&lt;br/&gt;%3 You can now take and load SDVs into vehicle contents&lt;br/&gt;%3 Fixed bought gun store crates spawning outside of gun store&lt;br/&gt;%3 AI helicopter now spawns again (Spawns ammo crate when taken down)&lt;br/&gt;%3 Additional gun store damage protection, lets see if it will help&lt;br/&gt;%3 You should be able to respawn in helicopters piloted by copilot&lt;br/&gt;%3 Fixed vehicle spawns on Capture base mission, vehicles should no longer explode right away&lt;br/&gt;</English>
+			<Russian>%1 Во всех магазинах разный ассортимент оружия&lt;br/&gt;%1 Отключение вида от третьего лица (вид от третьего лица доступен только для пилотов)&lt;br/&gt;&lt;br/&gt;%2 Выносливость тратится в два раза медленнее, восстанавливается в два раза быстрее&lt;br/&gt;%2 Убрана возможность выпрыгивать откуда угодно с добавлением оффициальной возможности выпрыгивать из вертолетов для пассажиров&lt;br/&gt;%2 Жесты теперь достпны на клавишах 7, 8, 9 и 5 на цифровой клавиатуре&lt;br/&gt;&lt;br/&gt;%3 Еда и вода больше не должны отниматься в меню респавна&lt;br/&gt;%3 Теперь можно носить и засовывать подводные лодки в технику&lt;br/&gt;%3 Покупные ящики больше не появляются снаружи магазина&lt;br/&gt;%3 Вертолет ботов снова появляется в миссии (Сбрасывает ящик после уничтожения)&lt;br/&gt;%3 Дополнительная защита от уничтожения объектов магазина&lt;br/&gt;%3 Теперь можно появляться в вертолетах, управляемых вторым пилотом&lt;br/&gt;%3 Исправлены точки появления техники на миссии захвата базы, больше взрывов быть не должно&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v3">
+			<English>%2 Adjusted mission for latest public game version&lt;br/&gt;%2 Locked objects and objects carried by player cannot be sold at gun store&lt;br/&gt;&lt;br/&gt;%3 Other players no longer can sell your bought crates right away&lt;br/&gt;</English>
+			<Russian>%2 Миссия подправлена под последнюю версию игры&lt;br/&gt;%2 Заблокированные и объекты, которые игрок держит в руках больше нельзя продавать в магазине&lt;br/&gt;&lt;br/&gt;%3 Другие игроки больше не могут сразу продавать только что купленные ящики&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v4">
+			<English>%1 Accelerated day and night cycle is now active&lt;br/&gt;&lt;br/&gt;%2 Adjusted mission for latest public game version&lt;br/&gt;%2 Launchers and Laser Designator no longer let you access Thermal Imaging (unless enabled on server)&lt;br/&gt;%2 Radars no longer detect underwater players&lt;br/&gt;&lt;br/&gt;%3 Fixed most undefined variable notices&lt;br/&gt;%3 Refueling and rearming should be more stable now, no longer relies on Multiplayer Framework&lt;br/&gt;%3 ACP-C2 now spawns correct ammo&lt;br/&gt;%3 Fixed Kamaz towing, no longer should explode on untow&lt;br/&gt;</English>
+			<Russian>%1 Ускоренная смена дня и ночи снова включена&lt;br/&gt;&lt;br/&gt;%2 Миссия подправлена под последнюю версию игры&lt;br/&gt;%2 Гранатометы и Целеуказатель больше не позволяют включать тепловизор (если установлено на сервере)&lt;br/&gt;%2 Радары больше не обнаружают игроков под водой&lt;br/&gt;&lt;br/&gt;%3 Исправлены большинство сообщений о неопределенных переменных&lt;br/&gt;%3 Перезарядка и заправка должны быть более стабильными, больше не используют функции Multiplayer Framework&lt;br/&gt;%3 ACP-C2 теперь появляется с правильными боеприпасами&lt;br/&gt;%3 Исправлено прицепление Камаза, больше не должен взрываться&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v5">
+			<English>%1 New ArmA 3 content is added into the mission&lt;br/&gt;%1 &quot;Capture Ammo Truck&quot; mission added&lt;br/&gt;%1 Hints during respawn&lt;br/&gt;%1 Now you can sell store crate contents at Gun Store&lt;br/&gt;&lt;br/&gt;%2 SDV no longer spawn because they cause server and clients spam RPT with thousands error messages&lt;br/&gt;%2 Zamak trucks spawn in civilian areas now always have civilian colors&lt;br/&gt;&lt;br/&gt;%3 Fixed minor visual effect bug during respawn (Background noise)&lt;br/&gt;%3 Thermal scopes no longer spawn in crates&lt;br/&gt;</English>
+			<Russian>%1 Новый контент ArmA 3 добавлен в миссию&lt;br/&gt;%1 Добавлена миссия &quot;Захват грузовика с аммуницией&quot;&lt;br/&gt;%1 Подсказки во время появления&lt;br/&gt;%1 Теперь можно продавать вещи из ящика магазина&lt;br/&gt;&lt;br/&gt;%2 Подводные лодки больше не появляются так как они засоряли логи тысячами сообщений об ошибках&lt;br/&gt;%2 Гражданские КАМАЗы, появившиеся около обычных домов теперь всегда имеют гражданскую раскраску&lt;br/&gt;&lt;br/&gt;%3 Исправлен небольшой визуальный баг во время появления (Фоновый шум)&lt;br/&gt;%3 Тепловизионные прицелы больше не появляются в ящиках&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v6">
+			<English>%1 Added UAVs into gun store (You'll need to buy UAV Bag and UAV Terminal)&lt;br/&gt;&lt;br/&gt;%3 Vehicle ammo crates now properly rearm in 100% of cases&lt;br/&gt;%3 Fixed problem that sometimes caused lags&lt;br/&gt;</English>
+			<Russian>%1 Добавлены БПЛА в магазине (Вам понадобятся Рюкзак БЛПА и Терминал БПЛА)&lt;br/&gt;&lt;br/&gt;%3 Ящики с боекомплектом для техники теперь правильно заряжают абсолютно всегда&lt;br/&gt;%3 Исправлена проблема, создающая некоторые лаги&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v7">
+			<English>%1 New base building materials&lt;br/&gt;&lt;br/&gt;%3 Fixed problems which sometimes caused icons disappear over specific players&lt;br/&gt;%3 UAV Backpack change should now be more reliable&lt;br/&gt;%3 Now you can join Independent if you were moved out of the team for teamkilling&lt;br/&gt;</English>
+			<Russian>%1 Новые стройматериалы для базы&lt;br/&gt;&lt;br/&gt;%3 Исправлены некоторые проблемы, из-за которых иногда не показывалась иконка над конкретным игроком&lt;br/&gt;%3 Изменение рюкзака с БПЛА на вашу команду теперь более стабильное&lt;br/&gt;%3 Исправлена ошибка, не позволявшая зайти за зеленых, если вас изгнали за убийство своих&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v8">
+			<English>%1 New scoreboard to replace built-in scoreboard, stream friendly&lt;br/&gt;&lt;br/&gt;%2 No more blur when damaged&lt;br/&gt;%2 Food and Water regeneration requirement changed from 100 to 80&lt;br/&gt;%2 Wheels now get 3 times less damage when colliding with objects&lt;br/&gt;&lt;br/&gt;</English>
+			<Russian>%1 Новая таблица очков на замену обычной, так же с поддержкой функции Stream Friendly&lt;br/&gt;&lt;br/&gt;%2 Убрано размытие при ранениях&lt;br/&gt;%2 Для регенерации теперь требуется хотя бы 80 еды и 80 воды&lt;br/&gt;%2 Колеса получают в 3 раза меньше урона при столкновениях&lt;br/&gt;&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v9">
+			<English>%1 Revives&lt;br/&gt;%1 New ArmA 3 content is added into the mission&lt;br/&gt;%1 Separate view distance settings for going on foot, in ground vehicle and in aircraft&lt;br/&gt;%1 AI Plane instead of helicopter, now if it drops into ocean crate still spawns on shore&lt;br/&gt;&lt;br/&gt;%2 Icons over players are smooth during movement&lt;br/&gt;%2 You no longer receive damage from fire (character will still grunt as in pain though)&lt;br/&gt;%2 Vehicle ammo crates no longer sold in gun store (still can be found in military buildings), ammo trucks now hold much more vehicle ammo and you can check how much ammo left&lt;br/&gt;%2 Altis now has 6 gun stores located in 10 random locations&lt;br/&gt;%2 Trucks now spawn more weapons than other vehicles&lt;br/&gt;&lt;br/&gt;</English>
+			<Russian>%1 Оживление мертвых игроков&lt;br/&gt;%1 Новый контент ArmA 3 добавлен в миссию&lt;br/&gt;%1 Раздельные настройки дальности прорисовки пешком, в наземной технике и воздушной технике&lt;br/&gt;%1 Самолет врага вместо вертолета, плюс теперь если самолет падает в море, то ящик появляется на берегу&lt;br/&gt;&lt;br/&gt;%2 Иконки над игроками стали плавными в движении&lt;br/&gt;%2 Вы больше не получаете урона от огня (однако персонаж все равно будет издавать звуки от боли)&lt;br/&gt;%2 Ящики с боекомплектом для техники больше не продаются в магазине (но их можно найти в военных строениях), грузовики с боеприпасами теперь содержат в себе гораздо больше боезапаса и можно узнать сколько его осталось&lt;br/&gt;%2 На Альтисе теперь 6 магазинов, находящихся в случайных местах&lt;br/&gt;%2 В грузовиках появляется больше оружия, чем в другой технике&lt;br/&gt;&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v10">
+			<English>%1 Chat notifications now show when friendly player nearby sells something in the gun store, places an explosive, turns off the radar or starts reviving you&lt;br/&gt;%1 Eject function now available for all seats in all vehicles (like helicopter pilots)&lt;br/&gt;%1 Parachute backpacks are no longer required, when ejecting you will automatically open parachute at about 200 meters&lt;br/&gt;%1 AI units now drop money on death&lt;br/&gt;%1 Friendly players now display on map (You can disable showing you on the map)&lt;br/&gt;%1 New ArmA 3 content is added into the mission, UI stuff adjusted&lt;br/&gt;&lt;br/&gt;%2 Pitch black nights removed&lt;br/&gt;%2 Vehicle ammo box now uses small ammo box model instead of huge cardboard box for gameplay purposes (cardboard box was causing too much problems when dropped)&lt;br/&gt;%2 Icons over head should zoom when looking through scope or optics (Thanks to Killzone_Kid)&lt;br/&gt;%2 When spawning on base defence radar you paradrop above it&lt;br/&gt;%2 Capture helicopter and Capture vehicle vehicles no longer have thermal imaging on commander seats since it could be abused to have thermal vision on gunner seat&lt;br/&gt;&lt;br/&gt;%3 When player leaves the game they drop their full set of loot into pile under them (some attachments\magazines from weapons in backpack might still disappear though)&lt;br/&gt;%3 Fixed weapon duping\disappearance when reviving. Attachments on weapons in backpack might still disappear though so beware.&lt;br/&gt;%3 Fixed day\night acceleration logic which no longer should do skip time back and forth and all players now should see same time of the day&lt;br/&gt;%3 Dying mid-air no longer spawns inventory contents mid-air and places it on surface underneath&lt;br/&gt;%3 &quot;Capture base&quot; objects now should properly have simulation disabled&lt;br/&gt;%3 Player bodies that can be revived no longer melt into the ground&lt;br/&gt;%3 You no longer can rearm the helicopter mid-air with ammo truck attached&lt;br/&gt;%3 Additional measures against using 2-2 to spot objects and enemies&lt;br/&gt;%3 Civilian boats now can store objects&lt;br/&gt;%3 Fixed gun store exploits&lt;br/&gt;%3 Temporary solution to disappearing\changing hats until developers address it&lt;br/&gt;</English>
+			<Russian>%1 В чате теперь сообщается, когда дружественный игрок продает что-то в магазине, ставит взрывчатку, выключает радар или оживляет вас&lt;br/&gt;%1 Функция выпрыгивания теперь доступна для всей техники и всех мест (например пилотов)&lt;br/&gt;%1 Парашюты с собой носить больше не нужно, во время прыжка с вертолета у вас автоматически откроется парашют на высоте около 200 метров&lt;br/&gt;%1 Боты сбрасывают деньги при смерти&lt;br/&gt;%1 Дружественные игроки теперь отображаются на карте (Можно отключить отображения себя для других)&lt;br/&gt;%1 Новый контент ArmA 3 добавлен в миссию, исправлен интерфейс&lt;br/&gt;&lt;br/&gt;%2 Абсолютно темные ночи убраны&lt;br/&gt;%2 Ящик с боекомплектом для техники теперь использует модель коробки с пулеметными патронами вместо большой картонной коробки, так как последняя создавала кучу проблем когда она сбрасывалась с игрока&lt;br/&gt;%2 Иконки над игроками должны увеличиваться вместе со степенью увеличения в оптике (Спасибо Killzone_Kid)&lt;br/&gt;%2 Теперь при появлении на радаре вы сбрасываетесь на парашюте над ним&lt;br/&gt;%2 Техника с миссий по захвату вертолета и техники больше не имеет тепловизоров, так как ими можно было злоупотреблять для получить тепловизора не месте стрелка&lt;br/&gt;&lt;br/&gt;%3 Когда игрок выходит из игры, под ним остается кучка со всем его лутом (некоторые насадки и зараженные магазины из оружия в рюкзаке все равно могут исчезнуть, правда)&lt;br/&gt;%3 Исправлено исчезновение или дюп оружия когда вас оживляют. Насадки на оружие в рюкзаке, правда, все равно могут исчезнуть.&lt;br/&gt;%3 Исправлена логика работы ускорения времени дня и ночи. Теперь время не должно прыгать вперед и назад и все игроки будут видеть одно и то же время дня&lt;br/&gt;%3 Теперь при смерти в воздухе игроки сбрасывают содержимое инвентаря на поверхности под ними&lt;br/&gt;%3 Объекты с &quot;Захвата базы&quot; теперь должны всегда иметь отключенную симуляцию&lt;br/&gt;%3 Тела игроков, которых можно вылечить, больше не уходят под землю&lt;br/&gt;%3 Перезарядка вертолета в полете грузовиком больше невозможна&lt;br/&gt;%3 Дополнительные меры против использования команды 2-2 для обнаружения объектов и противника&lt;br/&gt;%3 Гражданские лодки теперь могут перевозить объекты&lt;br/&gt;%3 Исправлены дюпы денег в магазине&lt;br/&gt;%3 Временное решение против исчезающих\менящихся шлемов, пока разработчики не разберутся с причиной проблемы&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v11">
+			<English>%1 New vehicle crew display code from King of Hill&lt;br/&gt;&lt;br/&gt;%2 Teamswitch restrictions temporary disabled&lt;br/&gt;%2 You no longer get collision damage when parachuting&lt;br/&gt;&lt;br/&gt;%3 Attempts to fix network lag by disabling some features, will be reviewed in re-enabled later&lt;br/&gt;%3 Performance\Lag related optimizations. Cleanup is more agressive now.&lt;br/&gt;</English>
+			<Russian>%1 Новый метод отображения игроков в техники из King of Hill&lt;br/&gt;&lt;br/&gt;%2 Ограничения на смену команду временно отключены&lt;br/&gt;%2 Убран урон от сильного столкновений с землей во время парашютирования&lt;br/&gt;&lt;br/&gt;%3 Попытки справиться с сетевым лагом отключением некоторых функций, которые будут включены снова чуть позже&lt;br/&gt;%3 Оптимизации по уменьшению лага. Отчистка техники гораздо более агрессивна.&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v12">
+			<English>%1 Sales in gun store&lt;br/&gt;%1 Anti global VON script from King of the Hill&lt;br/&gt;%1 Fatigue bar from King of the Hill&lt;br/&gt;%1 Gun store now sells contents of all backpacks, not just first one&lt;br/&gt;%1 Gun store now sells all attachments and loaded magazines off weapons inside vehicles or loot piles along with the weapon&lt;br/&gt;%1 Gun store now supports buying and selling of facewear&lt;br/&gt;%1 Gun store now sells all new ArmA 3 content&lt;br/&gt;&lt;br/&gt;%3 Name no longer shows up during revive with stream safe option turned on&lt;br/&gt;%3 Geo cache mission no longer ends right away&lt;br/&gt;%3 AI no longer should spawn naked&lt;br/&gt;%3 Underwater wreck mission no longer ends right away&lt;br/&gt;</English>
+			<Russian>%1 Распродажи в магазине&lt;br/&gt;%1 Скрипт удаляющий игрока за разговор в глобальный канал из King of the Hill&lt;br/&gt;%1 Полоска усталости из King of the Hill&lt;br/&gt;%1 Магазин оружия теперь продает содержимое всех рюкзаков, не только первого в куче&lt;br/&gt;%1 Магазин оружия теперь продает все насадки и заряженные магазины в оружии внутри техники или кучек лута&lt;br/&gt;%1 В магазине оружия теперь можно покупать очки, балаклавы и повязки на лицо&lt;br/&gt;%1 Магазин оружия теперь продает все новые вещи из игры&lt;br/&gt;&lt;br/&gt;%3 Имя больше не показывается во время оживления при включенной опции Stream Safe&lt;br/&gt;%3 Миссия &quot;Гео кэш&quot; больше не завершается сразу начавшись&lt;br/&gt;%3 Боты больше не должны быть голыми&lt;br/&gt;%3 Миссия Underwater wreck больше не заканчивается так и не начавшись&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v13">
+			<English>%1 Jets will now randomly spawn in hangars&lt;br/&gt;&lt;br/&gt;%2 Fatigue restoration speed greatly increased&lt;br/&gt;&lt;br/&gt;%3 Base building objects should now get detected automatically&lt;br/&gt;%3 Thermal scopes no longer randomly spawn in loot&lt;br/&gt;</English>
+			<Russian>%1 В ангарах теперь будут появляться самолеты&lt;br/&gt;&lt;br/&gt;%2 Усталость спадает значительно быстрее&lt;br/&gt;&lt;br/&gt;%3 Стройматериалы теперь будут обнаружаться автоматически&lt;br/&gt;%3 Тепловизионные прицелы больше не появляются в луте&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v14">
+			<English>%1 Tempest trucks now spawn randomly and on missions&lt;br/&gt;%1 You can now pick up chemlights (and something else too) and attach to your forearm&lt;br/&gt;%1 You can now push boats, wrecks and other vehicles&lt;br/&gt;%1 Gestures from King of the Hill&lt;br/&gt;%1 Minimap during incapacitated screen from King of the Hill&lt;br/&gt;&lt;br/&gt;%3 Sacks now properly spawn on the ground instead of mid-air&lt;br/&gt;%3 Towing planes now works on Stratis&lt;br/&gt;%3 Eject now properly works everywhere&lt;br/&gt;</English>
+			<Russian>%1 Грузовики &quot;Tempest&quot; теперь используются в миссии&lt;br/&gt;%1 Теперь можно поднимать химсвет (и кое-что еще) и цеплять у локтя&lt;br/&gt;%1 Теперь можно толкать лодки, обломки и другую технику&lt;br/&gt;%1 Жесты из King of the Hill&lt;br/&gt;%1 Миникарта во время экрана после смерти из King of the Hill&lt;br/&gt;&lt;br/&gt;%3 Мешки правильно появляются на поверхности вместо в воздухе&lt;br/&gt;%3 Буксировка самолетов теперь работает на Стратисе&lt;br/&gt;%3 Выпрыгнуть из техники теперь можно всегда&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v15">
+			<English>%1 Rewritten cleanup should provide better mission performance&lt;br/&gt;%1 Friendly fire damage messages in chat&lt;br/&gt;%1 Small damage from being run over by friendly vehicles is now ignored&lt;br/&gt;%1 You can now drop taken objects&lt;br/&gt;&lt;br/&gt;%3 Groups reworked, invites use less traffic and produce less lag&lt;br/&gt;</English>
+			<Russian>%1 Переписанная с нуля очистка карты должна улучшить производительность миссии&lt;br/&gt;%1 Сообщения о том, что по вам попал союзник в чате&lt;br/&gt;%1 Игнорируется урон от того что на вас слегка наехали союзники&lt;br/&gt;%1 Можно выбрасывать поднятые объекты&lt;br/&gt;&lt;br/&gt;%3 Группы переработаны, отправка инвайтов больше не должна создавать лагов&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v16">
+			<English>%1 Chernarus&lt;br/&gt;%1 Base saving between server restarts&lt;br/&gt;%1 Aircraft Wreck mission wrecks can now be salvaged&lt;br/&gt;%1 Scoreboard now displays the total consumed by each player&lt;br/&gt;&lt;br/&gt;%2 [Chernarus] AKs and AR15s spawn more frequently while other guns appear less often and mosty on missions and in trucks&lt;br/&gt;%2 [Chernarus] Gas stations are now invincible&lt;br/&gt;%2 Spawning into helicopter is now improved, should also include fire from vehicle positions&lt;br/&gt;%2 Unguided rockets of Mi-48 are now controlled by pilot&lt;br/&gt;%2 First aid kits now fully heal you&lt;br/&gt;%2 Salvaging vehicles that have revivable players or objects in them is not allowed, you need to revive players and take out objects first&lt;br/&gt;&lt;br/&gt;%3 Fixed bug where trucks wouldn't spawn enough equipment&lt;br/&gt;%3 [Chernarus] South part of Berezino is now properly spawns vehicles when you spawn there&lt;br/&gt;%3 [Chernarus] HLC weapons no longer spawn with wrong ammo (Unless it was intended, like in weapon crates)&lt;br/&gt;%3 Getting revived inside vehicle no longer deletes your primary and secondary weapons&lt;br/&gt;%3 Pushing vehicles should kill you less often (might still kill others nearby so be careful)&lt;br/&gt;%3 Ejecting out of helicopter pilot seat no longer turns off the engine&lt;br/&gt;%3 Tempest trucks now have inventory space&lt;br/&gt;%3 Fixed disappearing &quot;View vehicle contents&quot; action&lt;br/&gt;%3 Groups hopefully fixed for good, invites should always reach destination&lt;br/&gt;</English>
+			<Russian>%1 Чернарусь&lt;br/&gt;%1 Сохранение баз между рестартами сервера&lt;br/&gt;%1 Обломки с миссии &quot;Место крушения&quot; теперь можно утилизировать&lt;br/&gt;%1 Новая таблица очков - потреблено, сочитающая в себе сумма еды и воды, которые вы восполнили&lt;br/&gt;&lt;br/&gt;%2 [Чернарусь] Калашниковы и AR15 появляются чаще остальных винтовок, тогда как другое новое оружие в основном бывает на миссиях и в грузовиках&lt;br/&gt;%2 [Чернарусь] Заправки теперь бессмертные&lt;br/&gt;%2 Появление внутри вертолета союзников улучшение, теперь можно появиться и на месте пассажира, который может стрелять&lt;br/&gt;%2 НАРы вертолета Ми-48 теперь управляются пилотом&lt;br/&gt;%2 Аптечки теперь вылечивают полностью, а не частично&lt;br/&gt;%2 Утилизировать технику в которой есть игроки которых еще можно оживить или в которой лежат объекты теперь нельзя, объекты надо вытащить а игроков оживить&lt;br/&gt;&lt;br/&gt;%3 Исправлен баг из-за которого грузовики не появлялись с хорошим набором снаряжения&lt;br/&gt;%3 [Чернарусь] Южная часть Березино теперь правильно создает технику для игрока&lt;br/&gt;%3 [Чернарусь] Оружие из аддона HLC больше не появляется с не теми патронами (кроме случаев когда это сделано специально, например в ящиках)&lt;br/&gt;%3 Когда вас оживляют из техники, основное и дополнительное оружие больше не удаляются&lt;br/&gt;%3 Толкание техники теперь более безопасное и не должно вас убивать (но все равно может задеть игроков рядом)&lt;br/&gt;%3 Выпрыгивание из места пилота вертолета больше не выключает двигатель&lt;br/&gt;%3 Грузовики &quot;Tempest&quot; теперь имеют в себе место для объектов&lt;br/&gt;%3 Исправлено исчезающее действие &quot;View vehicle contents&quot;&lt;br/&gt;%3 Группы вроде бы наконец исправлены, теперь инвайты должны приходить всегда&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v17">
+			<English>%1 Scoreboard saves between sessions (along with bases)&lt;br/&gt;%1 Destroyed AI patrols respawn over time&lt;br/&gt;&lt;br/&gt;%2 AK 5.45 Subsonic ammo removed until fixed&lt;br/&gt;&lt;br/&gt;%3 Scoreboard reworked for better server-side performance&lt;br/&gt;%3 Thermal scopes no longer randomly spawn in loot (Again)&lt;br/&gt;%3 Attempt to fix teleporting empty cars&lt;br/&gt;%3 Attempt to fix respawn menu not showing friendly players being in town&lt;br/&gt;</English>
+			<Russian>%1 Таблица очков сохраняется между играми (как и базы)&lt;br/&gt;%1 Уничтоженные патрули ботов через некоторое время появляются снова&lt;br/&gt;&lt;br/&gt;%2 Дозвуковые 5.45 патроны убраны из игры, пока их не исправят&lt;br/&gt;&lt;br/&gt;%3 Таблица очков переработана для улучшенной производительности на сервере&lt;br/&gt;%3 Тепловизионные прицелы больше не появляются в луте (Снова)&lt;br/&gt;%3 Попытка исправить телепортирующиеся пустые машины&lt;br/&gt;%3 Попытка исправить проблему когда дружественные игроки не показываются в городе в меню респавна&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v18">
+			<English>%2 Icons over players now display depending on your set view distance&lt;br/&gt;&lt;br/&gt;%3 Imporant server-side fix to reduce load and lag when processing scoreboard&lt;br/&gt;%3 AI helicopter no longer lands and sits on one spot&lt;br/&gt;</English>
+			<Russian>%2 Иконки над игроками показывают по выставленной дальности прорисовки&lt;br/&gt;&lt;br/&gt;%3 Важное обновление на стороне сервера для снижения нагрузки и соответственно лага при обработке таблицы очков&lt;br/&gt;%3 Вертолет больше не должен садиться и стоять на месте&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v19">
+			<English>%1 [Chernarus] New HLC weapons&lt;br/&gt;%1 You can now refill fuel cans from any fuel truck&lt;br/&gt;%1 Repair trucks produce repair kits which you can take&lt;br/&gt;%1 Pawnee spawns with flares&lt;br/&gt;%1 Server hosts now can disable fatigue&lt;br/&gt;%1 Gun store locations save between sessions&lt;br/&gt;&lt;br/&gt;%3 Fixed black icons in menus&lt;br/&gt;%3 Another server-side fix to reduce lag&lt;br/&gt;%3 Fixed salvage complete message&lt;br/&gt;</English>
+			<Russian>%1 [Чернарусь] Новое оружие из HLC аддонов&lt;br/&gt;%1 Наполнять канистры теперь возможно из любого заправщика&lt;br/&gt;%1 Из ремонтных грузовиков можно брать ремкомплекты&lt;br/&gt;%1 Павни появляется с контрмерами&lt;br/&gt;%1 Владелец сервера в настройках может выключить усталость&lt;br/&gt;%1 Магазины остаются на прежних местах после рестарта сервера&lt;br/&gt;&lt;br/&gt;%3 Исправлены черные иконки в меню&lt;br/&gt;%3 Еще одно исправление на стороне сервера, чтобы уменьшить количество лага&lt;br/&gt;%3 Исправлено сообщение при завершении утилизации&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v20">
+			<English>%1 [Chernarus] First batch of RHS stuff: Vehicles, Gear&lt;br/&gt;%1 Gun stores now display uniform armor rates (in Head, Body, Hands, Legs order)&lt;br/&gt;%1 Confirmation dialog when aborting revive&lt;br/&gt;&lt;br/&gt;%2 AIs spawn with MRAPs less often now&lt;br/&gt;%2 You no longer get diving goggles on gun store purchase&lt;br/&gt;&lt;br/&gt;%3 Fatigue no longer gets enabled after revive if disabled on the server&lt;br/&gt;%3 Positions of towed vehicles now should be more adequate&lt;br/&gt;</English>
+			<Russian>%1 [Чернарусь] Первая партия RHS контента: Техника, Снаряжение&lt;br/&gt;%1 Магазины оружия теперь показывают уровень брони на униформах (в порядке голова, тело, руки, ноги)&lt;br/&gt;%1 Окно подтверждения при отмене возрождения&lt;br/&gt;&lt;br/&gt;%2 Боты реже появляются с бронированными машинами&lt;br/&gt;%2 Плавательные очки больше не выдают при покупке в магазине&lt;br/&gt;&lt;br/&gt;%3 Усталость не появляется снова после оживления, если выключена на сервере&lt;br/&gt;%3 Буксируемая техника теперь должна цепляться в нужных позициях&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v21">
+			<English>%1 Refuelling vehicles at missions with fuel trucks is now allowed and will not kick you out of the vehicle&lt;br/&gt;&lt;br/&gt;%2 Independents no longer can get into vehicles with enemy independents&lt;br/&gt;%2 Helicopters now can lift every vehicle, including tanks and APCs, but you cannot lift capture vehicle missions until it is fuelled&lt;br/&gt;%2 Less trucks, less stuff in trucks, less vests and helmets in common cars&lt;br/&gt;&lt;br/&gt;%3 &quot;Friendly player damaged you&quot; no longer should display yourself&lt;br/&gt;%3 Backpacks no longer spawn with stuff in them&lt;br/&gt;%3 [Chernarus] CH-47 no longer gets Mohawk textures&lt;br/&gt;%3 [Chernarus] Mi-24s no longer gets Skyfires, armament also now properly displays on the helicopter&lt;br/&gt;</English>
+			<Russian>%1 Заправка техники на миссиях с помощью заправщиков теперь не будет выкидывать вас из техники&lt;br/&gt;&lt;br/&gt;%2 Независимые больше не могут садиться в технику ко вражеским независимым&lt;br/&gt;%2 Вертолеты теперь могут поднимать любую технику, включая танки и БМП, но подбирать технику с миссии нельзя, до тех пор пока она не заправлена&lt;br/&gt;%2 Меньше грузовиков, меньше лута в грузовиках, меньше обвесов и шлемов в обычных машинах&lt;br/&gt;&lt;br/&gt;%3 Сообщение о том что вас ранил союзик больше не должно показываться когда вы ранили сами себя&lt;br/&gt;%3 Рюкзаки больше не появляются с вещами внутри&lt;br/&gt;%3 [Чернарусь] Чинуки больше не появляются с текстурами Мохаука&lt;br/&gt;%3 [Чернарусь] Ми-24 больше не появляются с ракетами Скайфаер, плюс правильно отображается вооружие на самом вертолете&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v22">
+			<English>%1 Press F1 to mute sound (VON and Direct channel are not affected)&lt;br/&gt;%1 Ability to lock gun store bought crates. Locked crates will be inaccessible for non-group friendlies while you're in game and will be visible on the map.&lt;br/&gt;%1 Gun store bought crates are now team coloured&lt;br/&gt;&lt;br/&gt;%2 Trucks and big helicopters have more inventory space&lt;br/&gt;%2 Capture base vehicles spawn better vehicles and more loot in them&lt;br/&gt;&lt;br/&gt;%3 Rearming vehicle with Vehicle Ammo item works in all cases and no longer requires vehicle to be empty&lt;br/&gt;%3 Deaths during respawn should happen less often&lt;br/&gt;%3 Dead independent units no longer block entry to vehicles for other independents&lt;br/&gt;</English>
+			<Russian>%1 Клавиша F1 теперь выключает звук (Голосовой чат не затрагивает)&lt;br/&gt;%1 Возможность закрывать на замок ящики купленные в магазине. Закрытые ящики будут недоступны дружественными игрокам, которые не в вашей группе, а так же видны на карте.&lt;br/&gt;%1 Ящики купленные в магазине красятся в цвет команды&lt;br/&gt;&lt;br/&gt;%2 Грузовики и большие вертолеты имеют больше места под объекты&lt;br/&gt;%2 Техника на захвате базы теперь более ценная и содержит больше лута&lt;br/&gt;&lt;br/&gt;%3 Зарядка боекомплекта с помощью вещи работает во всех случаях и больше не требует чтобы техника была пустая&lt;br/&gt;%3 Смерти во время респавна должны быть реже&lt;br/&gt;%3 Мертвые независимые больше не блокируют посадку в технику для других независимых&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v23">
+			<English>%1 Groups menu right in respawn menu&lt;br/&gt;%1 Vehicles and helicopters captured on mission now belong to player that first entered them after refuel, these can be locked and will appear on map until captured by enemy&lt;br/&gt;%1 Ability to buy right into your crate or your vehicle&lt;br/&gt;&lt;br/&gt;%2 [Chernarus] Subsonic ammo should no longer spawn in loot or gun store&lt;br/&gt;&lt;br/&gt;%3 Dying again during revive no longer messes up revive system&lt;br/&gt;</English>
+			<Russian>%1 Меню групп прямо в меню появления&lt;br/&gt;%1 Техника и вертолеты с миссий будут принадлежать первому игроку, который в них сел после заправки, такую технику можно закрывать и ее будет видно на карте, пока ее не захватит противник&lt;br/&gt;%1 Возможность покупать прямо в свой ящик или свою технику&lt;br/&gt;&lt;br/&gt;%2 [Чернарусь] Дозвуковые боеприпасы больше не появляются в луте или магазине&lt;br/&gt;&lt;br/&gt;%3 Смерть во время оживления больше не портит систему оживления&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Diary_Changelog_v24">
+			<English>%1 Team switching restrictions are back, within 60 seconds after spawning you will be locked into your current team, this includes all 3 playable teams. Lock gets removed after server restart or if you weren't on the server for 30 minutes.&lt;br/&gt;%1 Saving between restarts has been rewritten from scratch, now any walls that were locked at least once will save between restarts, any alive radars will save as well, plus it should be generally less of load on the server&lt;br/&gt;%1 Independent can now activate and spawn on radar, they can't buy it though and have to steal off other teams&lt;br/&gt;%1 Radar completely rewritten, now costs more, saves between restarts, can be destroyed and repaired, can no longer be put into vehicle and has to be towed, going prone or being underwater makes you undetected by it and more&lt;br/&gt;%1 GPS now displays players and other mission icons just like main map&lt;br/&gt;%1 Selling from ground in gun store no longer sells dropped weapons off revivable dead players&lt;br/&gt;%1 Looting dead friendlies is not allowed while they're in revive state. Taking money is not allowed as well.&lt;br/&gt;%1 Gun store button to view what weapons are compatible with sold attachment&lt;br/&gt;%1 More gear variation for AI units&lt;br/&gt;%1 New A3 base building parts&lt;br/&gt;%1 Signal pistol from Karts DLC&lt;br/&gt;%1 Marksman DLC content&lt;br/&gt;%1 Damaged jet leak fuel&lt;br/&gt;&lt;br/&gt;%2 Doing 2 punished teamkills now puts you off server for good until restart without even an ability to play Independent&lt;br/&gt;%2 Talking to global channel simply switches you to direct now instead of kicking out of the game&lt;br/&gt;%2 Jet spawns and respawns with 1 hour delay&lt;br/&gt;%2 Object lock system changed – you’re no longer able to unlock enemy walls or other objects if there is an enemy nearby, if an object is unlocked anyone can take it at any time. Friendly players cannot unlock walls if the owner that locked the object is nearby (includes the owners group mates)&lt;br/&gt;%2 Vehicle ownership system changed once again, behaviour for friendlies remains the same - they can't enter driver or gunner seats or open inventory if vehicle is locked, new behaviour for enemy players - enemy players cannot enter owned vehicles until they lock pick it&lt;br/&gt;%2 Different store crate for Gun Store&lt;br/&gt;&lt;br/&gt;%3 Blackfoot's unguided rockets (DAR instead of DAGR) are controlled by pilot instead of gunner now&lt;br/&gt;%3 Gun store sell menu will no longer depend on script scheduler (script lag) and always display sell list right away&lt;br/&gt;%3 Gun store sellers no longer spawn with no skin and now have random glasses&lt;br/&gt;%3 Scaffolding gets placed into proper position when released&lt;br/&gt;%3 Goggles and facewear no longer disappears after you die&lt;br/&gt;%3 Fixed ammo for Zafir and Rahim after Marksman update&lt;br/&gt;%3 Flying ladders no longer works&lt;br/&gt;</English>
+			<Russian>%1 Снова задействован запрет на смену команд, через 60 секунд после появления вы будете привязаны к вашей выбранной команде, это относится ко всем 3-м командам. Запрет на смену снимается после перезагрузки сервера или если вас не было на сервере 30 минут.&lt;br/&gt;%1 Сохранение между перезапусками сервера было переделано с нуля, теперь сохраняться будут любые стенки, которые были зафиксированы хотя бы один раз, целые радары так же будут сохраняться, ну и в общем сохранение должно давать меньше нагрузки на сервер&lt;br/&gt;%1 Независимые теперь может включать и появляться на радаре, но по-прежнему не могут его покупать и должны украсть у другой команды&lt;br/&gt;%1 Радар полностью переделан, теперь он дороже, сохраняется между рестартами, его можно уничтожить и отремонтировать, больше нельзя засовывать в технику и его нужно буксировать, в положении лежа или под водой радар вас не видит и другие нововведения&lt;br/&gt;%1 GPS отображает игроков и другие иконки в миссии как и основная карта&lt;br/&gt;%1 Продажа вещей с земли в магазине больше не продает оружие, упавшее с игроков, если их еще можно оживить&lt;br/&gt;%1 Больше нельзя брать вещи мертвых товарищей, которых еще можно оживить. Брать деньги тоже нельзя.&lt;br/&gt;%1 Кнопка в магазине, показывающая с каким оружием совместима насадка на оружие&lt;br/&gt;%1 Больше разнообразия в шмотках ботов&lt;br/&gt;%1 Новые части для строительства из А3&lt;br/&gt;%1 Сигнальный пистолет из Karts DLC&lt;br/&gt;%1 Оружие из Marksman DLC&lt;br/&gt;%1 Поврежденные самолеты теряют топливо&lt;br/&gt;&lt;br/&gt;%2 Два наказанных убийства своих теперь не дадут вам играть даже за независимых&lt;br/&gt;%2 При попытке разговора в общем канале он просто меняется на прямой канал вместо того, чтобы выкинуть вас из игры&lt;br/&gt;%2 Самолет появляется первый и следующий разы с задержкой в 1 час&lt;br/&gt;%2 Система фиксирования объектов и стен изменилась - теперь нельзя разблокировать стены или объекты врага, пока рядом есть враги этой команды, но если объект разблокирован - брать его может кто угодно. Дружественные игроки не может разблокировать стены если рядом есть игрок, который заблокировал эту стену или игроки из его группы&lt;br/&gt;%2 Снова изменилась система владения техникой, поведение для дружественных игроков осталось тем же - они не могут садиться на места водителя и стрелка и не могут открывать инвентарь, если техника закрыта, для врагов же появились новые условия - они не могут садиться в технику, пока не взломают в ней замок&lt;br/&gt;%2 Другой ящик в магазине&lt;br/&gt;&lt;br/&gt;%3 Неуправляемые ракеты Блекфута (DAR вместо DAGR) теперь под контролем пилота, а не стрелка&lt;br/&gt;%3 Меню продажи в магазине больше не зависит от состояния запланированной скриптовой среды (скриптового лага) и всегда будет показывать список вещей на продажу моментально&lt;br/&gt;%3 Продавцы в магазине больше не появляются без текстуры лица и теперь иногда сидят в очках&lt;br/&gt;%3 Леса ставятся на правильную высоту при установке&lt;br/&gt;%3 Очки и повязки больше не исчезают при смерти&lt;br/&gt;%3 Исправлены боеприпасы к Зафиру и Рахиму&lt;br/&gt;%3 Полет на лестницах больше не работает&lt;br/&gt;</Russian>
+		</Key>
+	</Package>
+	<Package name="Actions">
+		<Key ID="STR_WL_Acts_PlayerMenu">
+			<English>Player menu</English>
+			<Russian>Меню игрока</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_RadarEnable">
+			<English>Enable radar "%1"</English>
+			<Russian>Включить радар "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_RadarDisable">
+			<English>Disable radar "%1"</English>
+			<Russian>Выключить радар "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_EnablingRadar">
+			<English>Enabling radar "%1"</English>
+			<Russian>Включаем радар "%1" </Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_DisablingRadar">
+			<English>Disabling radar "%1"</English>
+			<Russian>Выключаем радар "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_RadarEnabled">
+			<English>Radar "%1" enabled</English>
+			<Russian>Радар "%1" включен</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_RadarDisabled">
+			<English>Radar "%1" disabled</English>
+			<Russian>Радар "%1" выключен</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_RadarName">
+			<English>Radar "%1"</English>
+			<Russian>Радар "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_RadarDestroyed">
+			<English>Radar is damaged and needs repair first.</English>
+			<Russian>Радар поврежден и требует починки.</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_ActiveRadarNearby">
+			<English>Radar cannot be turned on with another active radar nearby.</English>
+			<Russian>Радар нельзя включить, если рядом уже есть один работающий радар.</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_CannotDisableRadarFriendlyNearby">
+			<English>Radar "%1" is turned on by friendly players, please ask %2 to disable it for you.</English>
+			<Russian>Радар "%1" включен дружественными игроками, пожалуйста попросите %2 если вам нужно радар выключить.</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_CheckVehicleAmmoAction">
+			<English>Check ammo supply</English>
+			<Russian>Проверить остаток боезапаса</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_CheckVehicleAmmoText">
+			<English>Remaining vehicle ammo supply in</English>
+			<Russian>Остаток боезапаса для перезарядки техники в</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_TakeChemlight">
+			<English>Hold %1</English>
+			<Russian>Взять %1</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_DropChemlight">
+			<English>Drop %1</English>
+			<Russian>Оставить %1</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_CannotLootDeadFriendly">
+			<English>You are not allowed to loot dead friendly that is still revivable.</English>
+			<Russian>Нельзя поднимать вещи с мертвого товарища, которого еще можно оживить.</Russian>
+		</Key>
+		<Key ID="STR_WL_Acts_CannotLootFriendlyBackpack">
+			<English>You are not allowed to open friendly players backpacks.</English>
+			<Russian>Открывать рюкзаки дружественных игроков нельзя.</Russian>
+		</Key>
+	</Package>
+	<Package name="R3F">
+		<Key ID="STR_WL_R3F_GenericObject">
+			<English>Object</English>
+			<Russian>Объект</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_Action_LockVehicle">
+			<English>Lock "%1"</English>
+			<Russian>Закрыть "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_Action_UnlockVehicle">
+			<English>Unlock "%1"</English>
+			<Russian>Открыть "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_Action_LockpickVehicle">
+			<English>Lock pick "%1"</English>
+			<Russian>Взломать "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_Action_FixlockVehicle">
+			<English>Fix lock of "%1"</English>
+			<Russian>Починить замок у "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_Action_LockObject">
+			<English>Lock "%1"</English>
+			<Russian>Зафиксировать "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_Action_UnlockObject">
+			<English>Unlock "%1"</English>
+			<Russian>Разблокировать "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_Action_PushVehicle">
+			<English>Push "%1"</English>
+			<Russian>Толкнуть "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_Action_TakeObject">
+			<English>Take object "%1"</English>
+			<Russian>Взять объект "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_Action_AdjustObject">
+			<English>Adjust object "%1"</English>
+			<Russian>Сместить объект "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_LockingObject">
+			<English>Locking "%1"</English>
+			<Russian>Фиксирую "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_UnlockingObject">
+			<English>Unlocking "%1"</English>
+			<Russian>Разблокирую "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_ObjectLocked">
+			<English>"%1" locked!</English>
+			<Russian>"%1" зафиксирован!</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_ObjectUnlocked">
+			<English>"%1" unlocked!</English>
+			<Russian>"%1" разблокирован!</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_LockPickingVehicle">
+			<English>Lock picking "%1"</English>
+			<Russian>Взламываю "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_FixingLockVehicle">
+			<English>Fixing lock of "%1"</English>
+			<Russian>Чиню замок "%1"</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_VehicleLockFixed">
+			<English>Lock of "%1" fixed!</English>
+			<Russian>Замок "%1" теперь починен!</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_EnemyNearby"> <!-- БОЛЬШЕ НЕ ИСПОЛЬЗУЕТСЯ! -->
+			<English>This object belongs to %1 team and they're nearby, you cannot take this.</English>
+			<Russian>Объект двигать нельзя, он принадлежит команде %1 и они где-то рядом.</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_CannotUnlockEnemyNearby">
+			<English>This object belongs to %1 and you cannot unlock it while they're near by.</English>
+			<Russian>Объект принадлежит команде %1 и пока они рядом вы не сможете разблокировать его.</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_CannotUnlockFriendlyNearby">
+			<English>This object is locked by friendly players, please %1 ask to unlock it.</English>
+			<Russian>Объект зафиксирован дружественными игроками, пожалуйста попросите %1 чтобы они разблокировали его вам.</Russian>
+		</Key>
+		<Key ID="STR_WL_R3F_CannotLiftForbiddenList">
+			<English>"%1" cannot be lifted until mission is completed!</English>
+			<Russian>"%1" нельзя поднимать вертолетом, пока миссия не завершена!</Russian>
+		</Key>
+	</Package>
+	<Package name="HUD">
+		<Key ID="STR_WL_HUD_RadarSideFriendly">
+			<English>Friendly %1 radar</English>
+			<Russian>Союзнический радар %1</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarSideEnemy">
+			<English>Enemy %1 radar</English>
+			<Russian>Вражеский радар %1</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarStatus_AllClear">
+			<English>All clear</English>
+			<Russian>Врагов не замечено</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarStatus_1Enemy">
+			<English>%1 enemy</English>
+			<Russian>%1 враг</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarStatus_2to4Enemies">
+			<English>%1 enemies</English>
+			<Russian>%1 врага</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarStatus_5Enemies">
+			<English>%1 enemies</English>
+			<Russian>%1 врагов</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarStatus_NoFriendlies">
+			<English>no friendlies</English>
+			<Russian>своих нет</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarStatus_1Friendly">
+			<English>%1 friendly</English>
+			<Russian>%1 свой</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarStatus_2Friendlies">
+			<English>%1 friendlies</English>
+			<Russian>%1 своих</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarStatus_SpawnsIn">
+			<English>spawns in %1</English>
+			<Russian>появление доступно через %1</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarStatus_SpawnsAllowed">
+			<English>spawns allowed</English>
+			<Russian>появление доступно</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarStatus_SpawnsBlocked">
+			<English>spawns blocked</English>
+			<Russian>появление заблокировано</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarStatus_EnemySpawnsBlocked">
+			<English>enemy spawns blocked</English>
+			<Russian>заблокировано появление врагов</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarStatus_YouAreUndetected">
+			<English>Radar cannot detect you</English>
+			<Russian>Радар вас не видит</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarStatus_YouAreDetected">
+			<English>Radar detected you</English>
+			<Russian>Радар вас обнаружил</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarCLEAR">
+			<English>&lt;t size='2' color='#44ff44' font='PuristaSemibold'&gt;All clear&lt;/t&gt;&lt;br/&gt;No enemies detected by proximity radar.</English>
+			<Russian>&lt;t size='2' color='#44ff44' font='PuristaSemibold'&gt;Все чисто&lt;/t&gt;&lt;br/&gt;Врагов вокруг радара не обнаружено.</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarENEMY">
+			<English>&lt;t size='2' color='#ff0000' font='PuristaSemibold'&gt;Warning!&lt;/t&gt;&lt;br/&gt;Proximity radar deteced enemy nearby. Spawn blocked.</English>
+			<Russian>&lt;t size='2' color='#ff0000' font='PuristaSemibold'&gt;Внимание!&lt;/t&gt;&lt;br/&gt;Радар обнаружил противника. Появление заблокировано.</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_RadarDETECTED">
+			<English>&lt;t size='2' color='#ff0000' font='PuristaSemibold'&gt;Warning!&lt;/t&gt;&lt;br/&gt;You are being detected by enemy radar. Spawn blocked.</English>
+			<Russian>&lt;t size='2' color='#ff0000' font='PuristaSemibold'&gt;Внимание!&lt;/t&gt;&lt;br/&gt;Вы обнаружены вражеским радаром. Появление заблокировано.</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_Store_MarkerGunStore">
+			<English>Gun store</English>
+			<Russian>Магазин оружия</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_Store_MarkerEmpty">
+			<English>Unoccupied</English>
+			<Russian>Свободен</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_Store_MarkerEnemy">
+			<English>Enemy players here</English>
+			<Russian>Вражескими игроки</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_Store_MarkerFriendly">
+			<English>Friendly players</English>
+			<Russian>Дружественные игроки</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_Store_MarkerMixed">
+			<English>Enemy and friendly players</English>
+			<Russian>Вражеские и дружественные игроки</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_Store_MessageEnemyApproaching">
+			<English>Enemy player just entered gun store!</English>
+			<Russian>Враждебный игрок приближается к магазину!</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_Store_MessageNoMines">
+			<English>Placing explosives within 200m of a gun store is forbidden.</English>
+			<Russian>Установка взрывчатки в 200 метрах от магазина оружия запрещена.</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_TeamkillerMessage">
+			<English>&lt;t size='2' color='#ff0000'&gt;Teamkilling is forbidden for any reason!&lt;/t&gt;&lt;br/&gt;You have killed your team-mate which is against rules. If this was a mistake then &lt;t color='#8888ff'&gt;you must explain yourself and say sorry&lt;/t&gt;, otherwise they will mark you as team killer and you will get kicked from the team. Team killing is forbidden for any reason, no matter what somebody said or did, the team killer is always guilty and team killing will get you permabanned on our servers!</English>
+			<Russian>&lt;t size='2.2' color='#ff0000'&gt;Убивать своих строго запрещено!&lt;/t&gt;&lt;br/&gt;Вы убили игрока из своей команды, тем самым нарушив правила. Если это произошло случайно, &lt;t color='#8888ff'&gt;объяснитесь и принесите свои извинения&lt;/t&gt; этому игроку, иначе он пометит вас как тимкиллера и вы будете исключены из игры. Убивать своих запрещено при любых обстоятельствах, не важно кто что сделал или сказать, убийца своих всегда виновник и за тимкиллы вы получите вечный бан на наших серверах</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_WelcomeMessage">
+			<English>&lt;img image='i\logo.paa' size='4.2'/&gt;&lt;br/&gt;&lt;t size='2'&gt;Welcome to Wasteland&lt;/t&gt; (%1)&lt;br/&gt;&lt;t align='left'&gt;%2 For more info on how to play Wasteland please open your map and read "About Wasteland" section.&lt;br/&gt;&lt;br/&gt;Hotkeys:&lt;br/&gt;&lt;img image='i\key_tilde.paa' size='1.5'/&gt; Tilde key to open Player Menu&lt;br/&gt;&lt;img image='i\key_windows.paa' size='1.5'/&gt; Windows key to show friendly nicknames&lt;br/&gt;&lt;br/&gt;Follow updates on Twitter:&lt;br/&gt;&lt;img image='i\twitter64.paa' size='1.5'/&gt; @ArmaWasteland&lt;/t&gt;</English>
+			<Russian>&lt;img image='i\logo.paa' size='4.2'/&gt;&lt;br/&gt;&lt;t size='2'&gt;Welcome to Wasteland&lt;/t&gt; (%1)&lt;br/&gt;&lt;t align='left'&gt;%2 For more info on how to play Wasteland please open your map and read "About Wasteland" section.&lt;br/&gt;&lt;br/&gt;Функции на клавишах:&lt;br/&gt;&lt;img image='i\key_tilde.paa' size='1.5'/&gt; "Тильда" открывает меню игрока&lt;br/&gt;&lt;img image='i\key_windows.paa' size='1.5'/&gt; "Windows" показывает ники союзников&lt;br/&gt;&lt;br/&gt;Следить за разработкой можно через твиттер:&lt;br/&gt;&lt;img image='i\twitter64.paa' size='1.5'/&gt; @ArmaWasteland&lt;/t&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_WelcomeMessageTeam">
+			<English>You are in %1 team. Attacking or stealing from your teammates is FORBIDDEN and punishable.</English>
+			<Russian>You are in %1 team. Attacking or stealing from your teammates is FORBIDDEN and punishable.</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_WelcomeMessageFFA">
+			<English>You are in %1 team. You can attack, steal or kill anyone you want.</English>
+			<Russian>You are in %1 team. You can attack, steal or kill anyone you want.</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_ForbiddenEntry">
+			<English>You are not allowed to get into vehicle until it is refueled or there is fuel truck nearby!</English>
+			<Russian>Посадка в техника запрещена до тех пор, пока техника не заправлена или рядом с ней нет заправщика!</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_CannotGetIntoEnemyVehicle">
+			<English>Getting into vehicle with enemy independent players or AI is not allowed.</English>
+			<Russian>Садиться в технику с вражескими независимыми игроками или ботами нельзя.</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_CannotGetIntoEnemyLockedVehicle">
+			<English>Vehicle is locked by the enemy, lock pick it first.</English>
+			<Russian>Технику закрыл противник, вам нужно сначала взломать замок.</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_CannotGetIntoLocked">
+			<English>This vehicle is locked by %1, you can only get in as passenger.</English>
+			<Russian>Эту технику закрыл %1, вы можете садиться только на место пассажира.</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_CannotLootLockedCrate">
+			<English>Crate is locked by %1, you are not allowed to take items from it.</English>
+			<Russian>Ящик закрыл %1, брать из него вещи не разрешается.</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_CannotLootLockedVehicle">
+			<English>Vehicle is locked by %1, you are not allowed to take items from it.</English>
+			<Russian>Технику закрыл %1, брать из нее вещи не разрешается.</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_CannotLootEnemyLockedCrate">
+			<English>Crate is locked by the enemy, lock pick it first.</English>
+			<Russian>На ящике замок установленный врагом, его надо сначала взломать.</Russian>
+		</Key>
+		<Key ID="STR_WL_HUD_CannotLootEnemyLockedVehicle">
+			<English>Vehicle is locked by the enemy, lock pick it first</English>
+			<Russian>Техника закрыта на замок противником, ее сначала надо взломать.</Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_Generic">
+		<Key ID="STR_WL_Dlg_Close">
+			<English>Close</English>
+			<Russian>Закрыть</Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_Rules">
+		<Key ID="STR_WL_Dlg_Rules_NoDuping">
+			<English>Duping is no longer allowed. Currently all duping bugs are reported to the BI developers and we're awaiting a fix. All duping activity is logged by BattlEye and we can easily determine whom dupes and the severity of it. Violation of this rule will result in a one week ban and then further offences may result in a permanent ban. Thank-you for your understanding.</English>
+			<Russian>Дюпать вещи отныне запрещено на всех серверах. В данный момент все методы дюпов выявлены и отправлены разработчикам на исправление. Любое дюпание вещей записывается в логи Battleye и легко обнаружается кто что дюпал и в каких количествах. Нарушение этого правила приведет к бану от недели до полного бана со всех наших серверов.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Rules_Notification">
+			<English>Notification</English>
+			<Russian>Уведомление</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Rules_IUnderstand">
+			<English>I understand</English>
+			<Russian>Я согласен</Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_Thanks">
+		<Key ID="STR_WL_Dlg_Thanks_Text">
+			<English>We want to thank following streamers for featuring our mission on their channels:&lt;br/&gt;&lt;br/&gt;&lt;img image='i\twitch64.paa'/&gt;&lt;t size='1.3'&gt; Lirik&lt;/t&gt;&lt;br/&gt;&lt;img image='i\twitch64.paa'/&gt;&lt;t size='1.3'&gt; Sacriel&lt;/t&gt;&lt;br/&gt;&lt;img image='i\twitch64.paa'/&gt;&lt;t size='1.3'&gt; Psisyndicate&lt;/t&gt;&lt;br/&gt;&lt;img image='i\twitch64.paa'/&gt;&lt;t size='1.3'&gt; Ngotie&lt;/t&gt;&lt;br/&gt;&lt;img image='i\twitch64.paa'/&gt;&lt;t size='1.3'&gt; Hoggy2121&lt;/t&gt;&lt;br/&gt;&lt;img image='i\twitch64.paa'/&gt;&lt;t size='1.3'&gt; Pydrex&lt;/t&gt;&lt;br/&gt;&lt;img image='i\youtube64_3.paa'/&gt;&lt;t size='1.3'&gt; The B-Team&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;and others</English>
+			<Russian>Мы хотели бы поблагодарить этих стримеров за игру в нашу миссию:&lt;br/&gt;&lt;br/&gt;&lt;img image='i\twitch64.paa'/&gt;&lt;t size='1.3'&gt; Lirik&lt;/t&gt;&lt;br/&gt;&lt;img image='i\twitch64.paa'/&gt;&lt;t size='1.3'&gt; Sacriel&lt;/t&gt;&lt;br/&gt;&lt;img image='i\twitch64.paa'/&gt;&lt;t size='1.3'&gt; Psisyndicate&lt;/t&gt;&lt;br/&gt;&lt;img image='i\twitch64.paa'/&gt;&lt;t size='1.3'&gt; Ngotie&lt;/t&gt;&lt;br/&gt;&lt;img image='i\twitch64.paa'/&gt;&lt;t size='1.3'&gt; Hoggy2121&lt;/t&gt;&lt;br/&gt;&lt;img image='i\twitch64.paa'/&gt;&lt;t size='1.3'&gt; Pydrex&lt;/t&gt;&lt;br/&gt;&lt;img image='i\youtube64_3.paa'/&gt;&lt;t size='1.3'&gt; The B-Team&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;и других</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Thanks_Title">
+			<English>A moment of appreciation</English>
+			<Russian>Небольшое спасибо</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Thanks_Ok">
+			<English>That's cool</English>
+			<Russian>Здорово</Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_Teamkilled">
+		<Key ID="STR_WL_Dlg_Teamkilled_Title">
+			<English>You were teamkilled</English>
+			<Russian>Вас убил свой</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Teamkilled_Text">
+			<English>Player %1 has teamkilled you (%2) which is against the rules when you play as %3. If this happened by mistake and they didn't kill you on purpose, then they should apologize and you should press the "Forgive" button. If they didn't explain themself and killed on purpose, then you should press "Punish" button. When player gets punished twice, they will be removed from your team and will be able to play as Independent only.</English>
+			<Russian>Игрок %1 убил вас (%2), как игрока своей команды, что против правил при игре за %3. Если произошла ошибка или он убил вас случайно, он должен извиниться, а вы нажать кнопку "Простить". Если же игрок не объяснил почему вас убил и сделал это намеренно, вы должны нажать кнопку "Наказать". После двух наказаний, игрока удалят из команды и он сможет играть только за Независимых.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Teamkilled_StoryRequest">
+			<English>Please explain what happened if you want teamkiller banned:</English>
+			<Russian>Если вы хотите чтобы игрока забанили, расскажите что случилось:</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Teamkilled_TypeSHOT">
+			<English>shot with weapon</English>
+			<Russian>стрелял из оружия</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Teamkilled_TypeROADKILL">
+			<English>ran over you</English>
+			<Russian>раздавил техникой</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Teamkilled_TypeVEHICLE">
+			<English>shot with vehicle</English>
+			<Russian>стрелял из техники</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Teamkilled_Punish">
+			<English>Punish</English>
+			<Russian>Наказать</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Teamkilled_Forgive">
+			<English>Forgive</English>
+			<Russian>Простить</Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_Scoreboard">
+		<Key ID="STR_WL_Dlg_Scoreboard_ScoreTitle0">
+			<English>Deaths</English>
+			<Russian>Смерти</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Scoreboard_ScoreTitle1">
+			<English>Player Kills</English>
+			<Russian>Убил игроков</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Scoreboard_ScoreTitle2">
+			<English>AI Kills</English>
+			<Russian>Убил ботов</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Scoreboard_ScoreTitle3">
+			<English>Money Spent</English>
+			<Russian>Потратил денег</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Scoreboard_ScoreTitle4">
+			<English>Completed Missions</English>
+			<Russian>Выполнил заданий</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Scoreboard_ScoreTitle5">
+			<English>Consumed</English>
+			<Russian>Съел и выпил</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Scoreboard_ScoreTitle6">
+			<English>Defensive Kills</English>
+			<Russian>Убил при защите</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Scoreboard_ScoreTitle7">
+			<English>Offensive Kills</English>
+			<Russian>Убил при нападении</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Scoreboard_ByXPlayers">
+			<English>by</English>
+			<Russian>счет от</Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_PlayerMenu">
+		<Key ID="STR_WL_Dlg_PlayerMenu_Title">
+			<English>Player Menu</English>
+			<Russian>Меню игрока</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_DamageStatus">
+			<English>Damage Status</English>
+			<Russian>Состояние здоровья</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_DamageTOTAL">
+			<English>TOTAL</English>
+			<Russian>ВСЕГО</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_DamageHEAD">
+			<English>HEAD</English>
+			<Russian>ГОЛОВ</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_DamageTORSO">
+			<English>TORSO</English>
+			<Russian>ТЕЛО</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_DamageARMS">
+			<English>ARMS</English>
+			<Russian>РУКИ</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_DamageLEGS">
+			<English>LEGS</English>
+			<Russian>НОГИ</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_Cash">
+			<English>Cash</English>
+			<Russian>Наличка</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_Inventory">
+			<English>Inventory</English>
+			<Russian>Вещи</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_Capacity">
+			<English>Capacity</English>
+			<Russian>Вместимость</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_CapacityUniform">
+			<English>Uniform</English>
+			<Russian>Униформа</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_CapacityVest">
+			<English>Vest</English>
+			<Russian>Разгрузка</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_CapacityBackpack">
+			<English>Backpack</English>
+			<Russian>Рюкзак</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_CapacityNone">
+			<English>&lt;None&gt;</English>
+			<Russian>&lt;Нет&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ButtonDrop">
+			<English>Drop</English>
+			<Russian>Выложить</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ButtonDropMoney">
+			<!-- Very short button, only 4 symbols -->
+			<English>Drop</English>
+			<Russian>Брос</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ButtonUse">
+			<English>Use</English>
+			<Russian>Использовать</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ButtonEat">
+			<English>Eat</English>
+			<Russian>Съесть</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ButtonDrink">
+			<English>Drink</English>
+			<Russian>Выпить</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ButtonRepair">
+			<English>Repair</English>
+			<Russian>Ремонт</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ButtonRefuel">
+			<English>Refuel</English>
+			<Russian>Заправка</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ButtonRearm">
+			<English>Rearm</English>
+			<Russian>Зарядка</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_NothingSelected">
+			<English>Nothing selected</English>
+			<Russian>Ничего не выбрано</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ButtonGroups">
+			<English>Groups</English>
+			<Russian>Группы</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ButtonSettings">
+			<English>Settings</English>
+			<Russian>Настройки</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_PanelStats">
+			<English>STATS</English>
+			<Russian>СТАТИСТИКА</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_PanelUptime">
+			<English>SERVER UPTIME</English>
+			<Russian>ИГРА ИДЕТ</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_PanelWipeIn">
+			<English>SERVER WIPE</English>
+			<Russian>СБРОС СЕРВЕРА</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_StatsTitles">
+			<English>Deaths:&lt;br/&gt;Player kills:&lt;br/&gt;AI kills:&lt;br/&gt;Spent:&lt;br/&gt;Missions:&lt;br/&gt;Consumed:&lt;br/&gt;</English>
+			<Russian>Умер:&lt;br/&gt;Игроки:&lt;br/&gt;Боты:&lt;br/&gt;Потратил:&lt;br/&gt;Миссии:&lt;br/&gt;Съел и выпил:&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageCannotDropInVehicle">
+			<English>Cannot drop stuff while in vehicle</English>
+			<Russian>Нельзя выкладывать вещи в технике</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageCannotUseInWater">
+			<English>Cannot use in water</English>
+			<Russian>В воде этого делать нельзя</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageCannotRepairInVehicle">
+			<English>Cannot repair while inside vehicle</English>
+			<Russian>Нельзя ремонтировать находясь внутри техники</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageCannotRefuelInVehicle">
+			<English>Cannot refuel while inside vehicle</English>
+			<Russian>Нельзя заправлять находясь внутри техники</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageCannotRearmInVehicle">
+			<English>Cannot rearm while inside vehicle</English>
+			<Russian>Нельзя заряжать находясь внутри техники</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageCannotRearmWithCrew">
+			<English>Vehicle has to be empty in order to rearm it</English>
+			<Russian>Во время перезарядки в технике никого не должно быть</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageNothingToRepair">
+			<English>No badly damaged vehicles around, nothing to repair</English>
+			<Russian>Рядом нет ни одной сильно поломанной техники, чинить нечего</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageNothingToRefuel">
+			<English>No vehicles around you that need be refueled</English>
+			<Russian>Рядом нет ничего чему нужна заправка</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageNothingToRearm">
+			<English>No vehicles around you that can be rearmed</English>
+			<Russian>Рядом нет ничего чему нужна перезарядка</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageSackDesync">
+			<English>Sack contents changed, please try again</English>
+			<Russian>Содержимое мешка изменилось, попробуйте еще раз</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageNotEnoughMoneyToDrop">
+			<English>You don't have $%1 to drop</English>
+			<Russian>У вас нет $%1 чтобы выложить</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageInventoryIsFull">
+			<English>Inventory is full</English>
+			<Russian>Больше места под вещей нет</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageYouHaveTaken">
+			<English>You have taken:</English>
+			<Russian>Вы взяли:</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageTotalMoney">
+			<English>Your total money:</English>
+			<Russian>Теперь у вас денег:</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageBusy">
+			<English>You are already doing something</English>
+			<Russian>Вы уже выполняете действие</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ActionFillFuelcan">
+			<English>Filling fuel can</English>
+			<Russian>Наполняю канистру</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ActionFillFuelcanDone">
+			<English>Fuelcan is now full of fuel</English>
+			<Russian>Канистра наполнена топливом</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ActionEatFood">
+			<English>Eating food</English>
+			<Russian>Ем еду</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ActionEatFoodDone">
+			<English>You ate some food</English>
+			<Russian>Вы поели</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ActionDrinkWater">
+			<English>Drinking water</English>
+			<Russian>Пью воду</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ActionDrinkWaterDone">
+			<English>You drank some water</English>
+			<Russian>Вы попили воды</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ActionRepair">
+			<English>Repairing</English>
+			<Russian>Ремонтирую</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ActionRepairDone">
+			<English>Vehicle fully repaired</English>
+			<Russian>Техника полностью отремонтирована</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ActionRefuel">
+			<English>Refueling</English>
+			<Russian>Заправляю</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ActionRefuelDone">
+			<English>Vehicle refueled to</English>
+			<Russian>Техника заправлена до</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ActionRearm">
+			<English>Rearming</English>
+			<Russian>Перезаряжаю</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ActionRearmDone">
+			<English>Vehicle fully rearmed</English>
+			<Russian>Техника полностью заряжена</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemMoney">
+			<English>Money</English>
+			<Russian>Деньги</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemMoneyText">
+			<English>Lotsa money</English>
+			<Russian>Lotsa money</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemFood">
+			<English>Canned Food</English>
+			<Russian>Еда</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemFoodText">
+			<English>Canned food description. Fulfills 30% of hunger when consumed.</English>
+			<Russian>Еда утоляет 30% голода при съедении.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemWater">
+			<English>Water Bottle</English>
+			<Russian>Бутылка воды</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemWaterText">
+			<English>Water bottle description. Fulfills 50% of thirst when consumed.</English>
+			<Russian>Бутылка воды утоляет 50% жажды.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemRepair">
+			<English>Repair Kit</English>
+			<Russian>Ремкомплект</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemRepairText">
+			<English>Repair kit can be used to repair all sorts of vehicles in Wasteland. You need to stand as close as possible to the vehicle in order to repair it.</English>
+			<Russian>Ремкомплект используется для починки любой техники в Вейстленде. Перед ремонтом встаньте как можно ближе к технике, которую вы хотите починить.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemFuelcanEmpty">
+			<English>Fuel Can (empty)</English>
+			<Russian>Канистра (пустая)</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemFuelcanEmptyText">
+			<English>This fuel can is empty. Find gas station or refuel truck to refuel it.</English>
+			<Russian>Эта канистра пустая. Ее можно заправить на бензоколонке или на бензовозе.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemFuelcan">
+			<English>Fuel Can</English>
+			<Russian>Канистра с топливом</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemFuelcanText">
+			<English>Fuel can is used to refuel all kinds of vehicles in Wasteland. You need to stand as close as possible to the vehicle in order to refuel it. Bigger vehicles will require more refuels to fill their entire fuel tank.</English>
+			<Russian>Канистрой можно заправить любую технику в Вейстленде. Перед заправкой встаньте как можно ближе к технике. Чем крупнее техника, тем больше канистр вам понадобится чтобы полностью ее заправить.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemVehammo">
+			<English>Vehicle Ammo</English>
+			<Russian>Боекомплект</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemVehammoText">
+			<English>Vehicle ammo is single use item to fully rearm any vehicle in Wasteland. You need to stand as close as possible to the vehicle in order to rearm it. Vehicle must be empty while you rearm it.</English>
+			<Russian>Боекомплект используется для перезарядки вооружения на технике. Используется один раз. Перед перезарядкой встаньте как можно ближе к технике и удостоверьтесь что в ней никого нет.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemSnake">
+			<English>Snake</English>
+			<Russian>Змея</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemSnakeText">
+			<English>Harmless grass snake.</English>
+			<Russian>Безобидный уж.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemRabbit">
+			<English>Rabbit</English>
+			<Russian>Кролик</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ItemRabbitText">
+			<English>What, behind the rabbit?</English>
+			<Russian>Кусается.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ActionSalvage">
+			<English>Salvaging</English>
+			<Russian>Утилизирую</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_ActionSalvageDone">
+			<English>Salvaged "%1" for $%2</English>
+			<Russian>Утилизация "%1" принесла вам $%2</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageCantSalvageVehicleContents">
+			<English>Cannot salvage because vehicle still has objects in it, take them out first</English>
+			<Russian>Утилизация невозможна так как в технике все еще есть объекты, их нужно вытащить</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageCantSalvageRevivablePlayers">
+			<English>Cannot salvage because there are still revivable players in it, you need to help them first.</English>
+			<Russian>Утилизация невозможна так как в технике есть игроки которых еще можно спасти, помогите им в первую очередь.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_PlayerMenu_MessageRepairKitAlreadyTaken">
+			<English>Repair kit was already taken from this repair vehicle, new one will be ready in 5 minutes</English>
+			<Russian>Из этой ремонтной машины ремкомплект уже забрали, новый будет готов через 5 минут</Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_Groups">
+		<Key ID="STR_WL_Dlg_Groups_MainTitle">
+			<English>Group management</English>
+			<Russian>Управление группами</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Groups_PlayerListTitle">
+			<English>Players list</English>
+			<Russian>Список игроков</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Groups_YourGroupTitle">
+			<English>Your group</English>
+			<Russian>Ваша группа</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Groups_StatusAlone">
+			<English>You are not part of any group. You can either send invite to other players to join your group or accept other player's invite and join their group.</English>
+			<Russian>Вы не состоите ни в одной группе. Вы можете отправить приглашение другим игрокам, чтобы они вошли к вам в группу или принять приглашения других игроков.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Groups_StatusLeader">
+			<English>You’re leading a group. You can invite more players or remove ones that are already in your group</English>
+			<Russian>Вы являетесь лидером группы. Вы можете пригласить дополнительных игроков или же убрать уже имеющихся.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Groups_StatusMember">
+			<English>You’re a group member. Only the leader can invite more players in. If you want to leave the group, select leader in list and press "Leave"</English>
+			<Russian>Вы являетесь членом группы. Только лидер может приглашать в группу игроков. Чтобы покинуть группу, выберите лидера в списке и нажмите "Выйти"</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Groups_ActionKick">
+			<English>Kick off</English>
+			<Russian>Убрать</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Groups_ActionLeave">
+			<English>Leave</English>
+			<Russian>Выйти</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Groups_ActionSendInvite">
+			<English>Invite</English>
+			<Russian>Пригласить</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Groups_ActionCancelInvite">
+			<English>Cancel invite</English>
+			<Russian>Отменить</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Groups_ActionAcceptInvite">
+			<English>Accept invite</English>
+			<Russian>Войти в группу</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Groups_HintStatusChanged">
+			<English>This player's status has changed</English>
+			<Russian>Статус этого игрока изменился</Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_Respawn">
+		<Key ID="STR_WL_Dlg_Respawn_Title">
+			<English>Respawn selection</English>
+			<Russian>Место респавна</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_Text">
+			<English>Please select where you would like to spawn. In order to spawn in a specific town it should have at least 1 friendly player in it and no enemy players.</English>
+			<Russian>Выберите место, где бы вы хотели возродиться. Появление в городах возможно только если в городе есть как минимум 1 дружественный игрок и ни одного противника.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_TextRadars">
+			<English>Please select a radar where you would like to spawn. When activated radars have 30 minutes cooldown before you can spawn on them. Any enemy in radar vicinity will block the spawn.</English>
+			<Russian>Выберите радар, рядом с которым вы хотели бы появиться. После активации радары недоступны для появления на них игроков в течении 30 минут. Любой враг, находящийся в зоне сканирования радара блокирует возможность появления.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_TextAir">
+			<English>Please select an aircraft in which you would like to spawn. Aircraft has to be at least %1 meters above ground and should have empty passenger seats.</English>
+			<Russian>Выберите самолет или вертолет, в котором вы хотели бы появиться. Самолет или вертолет должен быть на высоте не меньше %1 метров и иметь свободное место для пассажира.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_TextFFA">
+			<English>Please select where you would like to spawn. Independents can spawn only in random town.</English>
+			<Russian>Выберите место, где бы вы хотели возродиться. Независимые могут появляться только в случайном городе.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_TextFFA_">
+			<English>Please select where you would like to spawn. Since you are free for all, you can either spawn in random town or north-west, north-east, south-east, south-west or center town.</English>
+			<Russian>Выберите место, где бы вы хотели \ Так как вы в команде независимых, вы можете появиться или в случайном городе или случайном городе выбранной части карты.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_Teamspeak">
+			<English>Talk to players and contact admins:&lt;br/&gt;&lt;img size='2' image="i\ts.paa"/&gt; &lt;t size='2' color='#8888ff'&gt;ts.arma.su:9999&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;http://forums.arma.su/</English>
+			<Russian>Для общения с игроками и админами:&lt;br/&gt;&lt;img size='2' image="i\ts.paa"/&gt; &lt;t size='2' color='#8888ff'&gt;ts.arma.su:9999&lt;/t&gt;</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_RandomTitle">
+			<English>Random village or town around the map.</English>
+			<Russian>Случайный город или деревня на карте.</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_LobbyButton">
+			<English>Server lobby</English>
+			<Russian>Лобби сервера</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_RandomButton">
+			<English>Random town</English>
+			<Russian>Случайный город</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_RadarButton">
+			<English>Radar</English>
+			<Russian>Радар</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_Players">
+			<English>Players: %1</English>
+			<Russian>Игроки: %1</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_NoPlayers">
+			<English>No players</English>
+			<Russian>Игроков нет</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_Towns">
+			<English>Towns: %1</English>
+			<Russian>Города: %1</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_TownsEtc">
+			<English>and others</English>
+			<Russian>и другие</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_0">
+			<English>Center</English>
+			<Russian>Центр</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_1">
+			<English>North-West</English>
+			<Russian>Северо-запад</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_2">
+			<English>North-East</English>
+			<Russian>Северо-восток</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_3">
+			<English>South-East</English>
+			<Russian>Юго-восток</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_4">
+			<English>South-West</English>
+			<Russian>Юго-запад</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_Cooldown">
+			<English>Delay</English>
+			<Russian>Ожидание</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_TabTowns">
+			<English>Towns</English>
+			<Russian>Города</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_TabRadars">
+			<English>Radars</English>
+			<Russian>Радары</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_TabAir">
+			<English>Aircraft</English>
+			<Russian>Авиация</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_BlockedTextTowns">
+			<English>Towns blocked for spawn because of enemies:</English>
+			<Russian>Города недоступные для появления из-за врагов:</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_BlockedTextRadars">
+			<English>Radars blocked for spawn because of enemies:</English>
+			<Russian>Радары недоступные для появления из-за врагов:</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Respawn_BadRadarHint">
+			<English>This radar cannot be used for spawn because of its location</English>
+			<Russian>Этот радар не может быть использован для появления из-за его расположения</Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_GunStore">
+		<Key ID="STR_WL_Dlg_GunStore_Hint_StoreCrateCannotSell">
+			<English>Something was just bought into store crate, wait 1 miunte before you will be able to sell store crate contents (You still can sell items that are on the ground)</English>
+			<Russian>В ящик магазина недавно что-то купили, подождите минуту перед там как вы сможете продавать содержимое ящика магазина (Вы так же можете переложить вещи оттуда на землю и продать их)</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_GunStore_Hint_BoughtCrateCannotSell">
+			<English>Cannot sell crates that were just bought, wait 1 minute</English>
+			<Russian>Продавать ящики которые купили минуту назад нельзя</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_GunStore_Hint_VehicleIsOccupied">
+			<English>Cannot sell inventory contents of vehicles with players that are you your group mates</English>
+			<Russian>Нельзя продавать вещи из инвентаря техники, в которой сидят игроки не из вашей группы</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_GunStore_Hint_CrateIsLocked">
+			<English>Crate is owned and locked by %1, ask them if you want to sell it</English>
+			<Russian>Ящик закрыт на замок и принадлежит %1, попросите их, если вы хотите продать ящик</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_GunStore_Hint_VehicleIsLocked">
+			<English>Vehicle is locked by %1, ask them if you want to sell its inventory contents</English>
+			<Russian>Техника закрыта %1, попросите их, если вы хотите продать содержимое ее инвентаря</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_GunStore_Hint_CrateIsCarried">
+			<English>Object is being carried by %1 and they're not your group mate</English>
+			<Russian>Объект переносит %1 и они не в вашей группе</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_GunStore_Hint_ObjectIsFixed">
+			<English>Cannot sell fixed objects</English>
+			<Russian>Продавать зафиксированные объекты нельзя</Russian>
+		</Key>
+
+	</Package>
+	<Package name="Dialog_Confirm">
+		<Key ID="STR_WL_Dlg_Confirm_RespawnTitle">
+			<English>Abort revive</English>
+			<Russian>Отменить оживление</Russian>
+		</Key>
+		<Key ID="STR_WL_Dlg_Confirm_RespawnText">
+			<English>Are you sure you want to respawn?</English>
+			<Russian>Вы уверены что вы хотите возродиться?</Russian>
+		</Key>
+	</Package>
+</Project>

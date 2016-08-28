@@ -1,0 +1,11 @@
+/*
+	ArmA 3 Wasteland
+	Code written by Sa-Matra
+	Using this code without Sa-Matra's direct permission is forbidden
+	
+	
+	Special build for Dwarden
+	
+	ESABQIEXHTFRGOFR
+*/
+if(wgwa58)then{systemChat wgv8c1;}else{wgwa58=true;private["_0rv","_0cv"];_0rv=_this select 0;_0cv=nearestObjects[_0rv,wgfsgu,20];_0cv=_0cv-[_0rv];if(count _0cv>0)then{_0cv=_0cv select 0;if!(_0cv getVariable "R3F_LOG_disabled")then{if(isNull(_0cv getVariable["R3F_LOG_est_transporte_par",objNull]))then{if({alive _x}count crew _0cv==0)then{if(isNull(_0cv getVariable["R3F_LOG_est_deplace_par",objNull])||(!alive(_0cv getVariable["R3F_LOG_est_deplace_par",objNull])))then{private["_0sv","_0tv"];_0sv=true;_0tv=_0cv getVariable "R3F_LOG_remorque";if!(isNil "_0tv")then{if!(isNull _0tv)then{_0sv=false;};};if(_0sv)then{if!(_0cv in(missionNamespace getVariable["wgc292",[]]))then{if!(_0cv call wgbqap)exitWith{_0ho=(_0cv call wgdtln);if(_0ho call wgr44t)then{hint format["This object is locked by %1 and cannot be lifted",name _0ho];}else{hint "This object is locked and cannot be lifted";};};_0rv setVariable["R3F_LOG_heliporte",_0cv,true];_0cv setVariable["R3F_LOG_est_transporte_par",_0rv,true];_05j=(boundingBox _0rv select 0 select 2)-(boundingBox _0cv select 0 select 2)-(getPos _0rv select 2)+0.5;if(_05j>((boundingBox _0rv select 0 select 2)*1)-0.8)then{_05j=((boundingBox _0rv select 0 select 2)*1)-0.8;};_0cv attachTo[_0rv,[0,0,_05j]];systemChat format[wg3yna,getText(configFile>>"CfgVehicles">>(typeOf _0cv)>>"displayName")];}else{systemChat format[localize "STR_WL_R3F_CannotLiftForbiddenList",getText(configFile>>"CfgVehicles">>(typeOf _0cv)>>"displayName")];};}else{systemChat format[wgcwtn,getText(configFile>>"CfgVehicles">>(typeOf _0cv)>>"displayName")];};}else{systemChat format[wgp6o2,getText(configFile>>"CfgVehicles">>(typeOf _0cv)>>"displayName")];};}else{systemChat format[wgcdlt,getText(configFile>>"CfgVehicles">>(typeOf _0cv)>>"displayName")];};}else{systemChat format[wgwo5y,getText(configFile>>"CfgVehicles">>(typeOf _0cv)>>"displayName")];};};};wgwa58=false;};

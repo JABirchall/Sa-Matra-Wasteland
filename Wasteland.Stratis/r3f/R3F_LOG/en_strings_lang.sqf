@@ -1,0 +1,11 @@
+/*
+	ArmA 3 Wasteland
+	Code written by Sa-Matra
+	Using this code without Sa-Matra's direct permission is forbidden
+	
+	
+	Special build for Dwarden
+	
+	ESABQIEXHTFRGOFR
+*/
+wg43zl="Lift the object";wg3yna="Object ""%1"" attached.";wgwo5y="The object ""%1"" is already transported by a vehicle.";wgp6o2="The object ""%1"" is being moved by a player.";wgcdlt="There is a player in the object ""%1"".";wgcwtn="Can't lift the object ""%1"" because it's towing another object.";wg4kad="Drop the object";wgqnpy="Object ""%1"" dropped.";wgsqsm="Take this object";wg8r18="Release the object";wgo1mz="You can't get in a vehicle while you're carrying this object !";wgjwe1="You can't sprint while moving objects!";wgbuxs="Load in...";wgaswp="Now select the vehicle in which to load the object ""%1""...";wglezy="... load selected object in this vehicle";wgaebv="Loading in progress...";wg1itb="The object ""%1"" has been loaded in the vehicle.";wgglaj="The object ""%1"" is too far from the vehicle to be loaded.";wga3w7="There is no enough space in this vehicle. Space left: %1, Required: %2";wg9yvi="The object ""%1"" is in transit.";wg569f="Load in the vehicle";wgjser="Loading in progress...";wg2djg="The object has been loaded in the vehicle ""%1"".";wg5doq="There is no enough space in this vehicle.";wgamo9="Tow...";wg294o="Now select the vehicle in which to load the object ""%1""...";wgwzmg="... tow the selected object to this vehicle";wgtm4w="The object ""%1"" is too far from the vehicle to be towed.";wg35rd="The object ""%1"" is in transit.";wgsjor="Tow the object";wgnmkx="Untow the object";wgzafm="Object untowed.";wguu1c="Only the pilot can detach this object.";wg8w65="View vehicle contents";wgzm34="Unloading in progress...";wgseeo="The object has been unloaded from the vehicle.";wgyi8w="The object has already been unloaded.";wgt5pg="This vehicle is being transported.";wgv8c1="The current operation isn't finished.";wguaxh="Content of vehicle";wg2bes="Load: %1/%2";wgzcab="Unload";wgxiyi="Cancel";wgmgps="Artillery CQ";
